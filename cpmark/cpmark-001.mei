@@ -8,7 +8,7 @@
             <title>Colla parte example</title>
          </titleStmt>
          <pubStmt>
-            <date isodate="2024-12-12" />
+            <date isodate="2024-12-27" />
          </pubStmt>
          <notesStmt>
             <annot>Verovio supports "cpMark" elements. By default, indications are placed above the staff.</annot>
@@ -67,8 +67,8 @@
                            <rest dur="2" tstamp="3" />
                         </layer>
                      </staff>
-                     <dir staff="2" tstamp="1" tstamp2="1m+4">col 1<rend rend="sup">mo</rend> violino</dir>
-                     <dir place="within" staff="3" tstamp="1" tstamp2="1m+4">Col basso</dir>
+                     <cpMark staff="2" tstamp="1" tstamp2="1m+4">col 1<rend rend="sup">mo</rend> violino</cpMark>
+                     <cpMark place="within" staff="3" tstamp="1" tstamp2="1m+4">Col basso</cpMark>
                   </measure>
                   <measure n="12">
                      <staff n="1">
