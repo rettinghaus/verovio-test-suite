@@ -46,12 +46,12 @@
                   <measure n="1">
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n1" dur="2" oct.ges="2" oct="3" pname="e" />
+                           <note xml:id="n1" dur="2" oct="3" pname="e" />
                            <beam>
-                              <note dur="8" oct.ges="2" oct="3" pname="f" />
-                              <note dur="8" oct.ges="2" oct="3" pname="a" />
-                              <note dur="8" oct.ges="2" oct="3" pname="g" />
-                              <note dur="8" oct.ges="2" oct="3" pname="b" />
+                              <note dur="8" oct="3" pname="f" />
+                              <note dur="8" oct="3" pname="a" />
+                              <note dur="8" oct="3" pname="g" />
+                              <note dur="8" oct="3" pname="b" />
                            </beam>
                         </layer>
                      </staff>
@@ -60,19 +60,19 @@
                   <measure right="dbl" n="2">
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n2" dur="1" oct.ges="3" oct="4" pname="c" />
+                           <note xml:id="n2" dur="1" oct="4" pname="c" />
                         </layer>
                      </staff>
                   </measure>
                   <measure n="4">
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n3" dur="2" oct.ges="2" oct="4" pname="e" />
+                           <note xml:id="n3" dur="2" oct="4" pname="e" />
                            <beam>
-                              <note dur="8" oct.ges="2" oct="4" pname="f" />
-                              <note dur="8" oct.ges="2" oct="4" pname="a" />
-                              <note dur="8" oct.ges="2" oct="4" pname="g" />
-                              <note dur="8" oct.ges="2" oct="4" pname="b" />
+                              <note dur="8" oct="4" pname="f" />
+                              <note dur="8" oct="4" pname="a" />
+                              <note dur="8" oct="4" pname="g" />
+                              <note dur="8" oct="4" pname="b" />
                            </beam>
                         </layer>
                      </staff>
@@ -81,7 +81,7 @@
                   <measure right="dbl" n="5">
                      <staff n="1">
                         <layer n="1">
-                           <note dur="1" oct.ges="3" oct="5" pname="c" />
+                           <note dur="1" oct="5" pname="c" />
                         </layer>
                      </staff>
                   </measure>

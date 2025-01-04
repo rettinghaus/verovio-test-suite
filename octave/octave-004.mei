@@ -45,12 +45,12 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n1a" dur="2" oct.ges="6" oct="5" pname="e" />
+                           <note xml:id="n1a" dur="2" oct="5" pname="e" />
                            <beam>
-                              <note dur="8" oct.ges="6" oct="5" pname="f" />
-                              <note dur="8" oct.ges="6" oct="5" pname="a" />
-                              <note dur="8" oct.ges="6" oct="5" pname="g" />
-                              <note dur="8" oct.ges="6" oct="5" pname="b" />
+                              <note dur="8" oct="5" pname="f" />
+                              <note dur="8" oct="5" pname="a" />
+                              <note dur="8" oct="5" pname="g" />
+                              <note dur="8" oct="5" pname="b" />
                            </beam>
                         </layer>
                      </staff>
@@ -59,7 +59,7 @@
                   <measure right="dbl">
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n2a" dur="2" oct.ges="7" oct="6" pname="c" />
+                           <note xml:id="n2a" dur="2" oct="6" pname="c" />
                            <rest dur="2" />
                         </layer>
                      </staff>
@@ -69,12 +69,12 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n1b" dur="2" oct.ges="6" oct="5" pname="e" />
+                           <note xml:id="n1b" dur="2" oct="5" pname="e" />
                            <beam>
-                              <note dur="8" oct.ges="6" oct="5" pname="f" />
-                              <note dur="8" oct.ges="6" oct="5" pname="a" />
-                              <note dur="8" oct.ges="6" oct="5" pname="g" />
-                              <note dur="8" oct.ges="6" oct="5" pname="b" />
+                              <note dur="8" oct="5" pname="f" />
+                              <note dur="8" oct="5" pname="a" />
+                              <note dur="8" oct="5" pname="g" />
+                              <note dur="8" oct="5" pname="b" />
                            </beam>
                         </layer>
                      </staff>
@@ -83,7 +83,7 @@
                   <measure right="dbl">
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n2b" dots="1" dur="2" oct.ges="7" oct="6" pname="c" />
+                           <note xml:id="n2b" dots="1" dur="2" oct="6" pname="c" />
                            <rest dur="4" />
                         </layer>
                      </staff>
@@ -93,12 +93,12 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n1c" dur="2" oct.ges="6" oct="5" pname="e" />
+                           <note xml:id="n1c" dur="2" oct="5" pname="e" />
                            <beam>
-                              <note dur="8" oct.ges="6" oct="5" pname="f" />
-                              <note dur="8" oct.ges="6" oct="5" pname="a" />
-                              <note dur="8" oct.ges="6" oct="5" pname="g" />
-                              <note dur="8" oct.ges="6" oct="5" pname="b" />
+                              <note dur="8" oct="5" pname="f" />
+                              <note dur="8" oct="5" pname="a" />
+                              <note dur="8" oct="5" pname="g" />
+                              <note dur="8" oct="5" pname="b" />
                            </beam>
                         </layer>
                      </staff>
@@ -107,7 +107,7 @@
                   <measure right="dbl">
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="n2c" dots="2" dur="2" oct.ges="7" oct="6" pname="c" />
+                           <note xml:id="n2c" dots="2" dur="2" oct="6" pname="c" />
                            <rest dur="8" />
                         </layer>
                      </staff>
