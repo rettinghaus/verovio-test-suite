@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -30,12 +30,12 @@
                   <staffGrp bar.thru="true" symbol="brace">
                      <staffDef n="1" lines="5">
                         <clef shape="G" line="2" />
-                        <keySig pname="a" mode="major" sig="3s" />
+                        <keySig mode="major" sig="3s" pname="a" />
                         <meterSig count="4" sym="common" unit="4" />
                      </staffDef>
                      <staffDef n="2" lines="5">
                         <clef shape="F" line="4" />
-                        <keySig pname="a" mode="major" sig="3s" />
+                        <keySig mode="major" sig="3s" pname="a" />
                         <meterSig count="4" sym="common" unit="4" />
                      </staffDef>
                   </staffGrp>
@@ -61,10 +61,10 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm type="key-label" place="below" staff="2" tstamp="1.000000" n="1">
+                     <harm type="key-label" place="below" staff="2" tstamp="1" n="1">
                         <rend halign="right" fontweight="bold">VERY LONG LABEL:</rend>
                      </harm>
-                     <harm place="below" staff="2" tstamp="1.000000" n="1">
+                     <harm place="below" staff="2" tstamp="1" n="1">
                         <rend>I</rend>
                      </harm>
                   </measure>
@@ -103,17 +103,17 @@
                            <note dur="4" oct="3" pname="d" accid="s" />
                         </layer>
                      </staff>
-                     <harm place="below" staff="2" tstamp="1.000000" n="1">
+                     <harm place="below" staff="2" tstamp="1" n="1">
                         <rend>vi</rend>
                      </harm>
-                     <harm place="below" staff="2" tstamp="2.000000" n="1">
+                     <harm place="below" staff="2" tstamp="2" n="1">
                         <rend>I<rend rend="sub">6</rend>
                         </rend>
                      </harm>
-                     <harm place="below" staff="2" tstamp="3.000000" n="1">
+                     <harm place="below" staff="2" tstamp="3" n="1">
                         <rend>IV</rend>
                      </harm>
-                     <harm place="below" staff="2" tstamp="4.000000" n="1">
+                     <harm place="below" staff="2" tstamp="4" n="1">
                         <rend>V<rend rend="sub">6</rend>/V</rend>
                      </harm>
                   </measure>
@@ -150,25 +150,25 @@
                      </staff>
                      <fermata staff="1" startid="#note-L24F4" place="above" />
                      <fermata staff="2" startid="#note-L24F3" place="below" />
-                     <harm place="below" staff="2" tstamp="1.000000" n="1">
+                     <harm place="below" staff="2" tstamp="1" n="1">
                         <rend>v</rend>
                      </harm>
-                     <harm type="key-label" place="below" staff="2" tstamp="2.000000" n="1">
+                     <harm type="key-label" place="below" staff="2" tstamp="2" n="1">
                         <rend halign="right" fontweight="bold">LABEL:</rend>
                      </harm>
-                     <harm place="below" staff="2" tstamp="2.000000" n="1">
+                     <harm place="below" staff="2" tstamp="2" n="1">
                         <rend>V/V</rend>
                      </harm>
-                     <harm place="below" staff="2" tstamp="2.500000" n="1">
+                     <harm place="below" staff="2" tstamp="2.5" n="1">
                         <rend>(V<rend rend="sub">7</rend>/V)</rend>
                      </harm>
-                     <harm place="below" staff="2" tstamp="3.000000" n="1">
+                     <harm place="below" staff="2" tstamp="3" n="1">
                         <rend>V</rend>
                      </harm>
-                     <harm type="key-label" place="below" staff="2" tstamp="4.000000" n="1">
+                     <harm type="key-label" place="below" staff="2" tstamp="4" n="1">
                         <rend halign="right" fontweight="bold">LABEL:</rend>
                      </harm>
-                     <harm place="below" staff="2" tstamp="4.000000" n="1">
+                     <harm place="below" staff="2" tstamp="4" n="1">
                         <rend>I</rend>
                      </harm>
                   </measure>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -38,7 +38,7 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" meter.count="3" meter.unit="4" meter.form="invis" />
+                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" meter.count="3" meter.unit="4" />
                   </staffGrp>
                </scoreDef>
                <section>
@@ -86,7 +86,7 @@
                            </note>
                         </layer>
                      </staff>
-                     <harm staff="1" tstamp="1.000000">E♭m</harm>
+                     <harm staff="1" tstamp="1">E♭m</harm>
                   </measure>
                   <measure n="27">
                      <staff n="1">
@@ -115,7 +115,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="1" tstamp="1.000000">B♭/F</harm>
+                     <harm staff="1" tstamp="1">B♭/F</harm>
                   </measure>
                   <sb />
                   <measure n="28">
@@ -133,8 +133,8 @@
                            </note>
                         </layer>
                      </staff>
-                     <harm staff="1" tstamp="1.000000">Gm</harm>
-                     <harm staff="1" tstamp="3.000000">Gdom</harm>
+                     <harm staff="1" tstamp="1">Gm</harm>
+                     <harm staff="1" tstamp="3">Gdom</harm>
                   </measure>
                   <measure n="29">
                      <staff n="1">
@@ -163,7 +163,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm staff="1" tstamp="1.000000">Cm7</harm>
+                     <harm staff="1" tstamp="1">Cm7</harm>
                   </measure>
                   <measure n="30">
                      <staff n="1">
@@ -180,7 +180,7 @@
                            </note>
                         </layer>
                      </staff>
-                     <harm staff="1" tstamp="1.000000">Fdom</harm>
+                     <harm staff="1" tstamp="1">Fdom</harm>
                   </measure>
                </section>
             </score>

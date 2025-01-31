@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -34,7 +34,7 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffDef n="1" lines="5" clef.shape="C" clef.line="1" key.sig="4s" />
+                     <staffDef n="1" lines="5" clef.shape="C" clef.line="1" keysig="4s" />
                   </staffGrp>
                </scoreDef>
                <section>
@@ -53,12 +53,12 @@
                            </chord>
                         </layer>
                      </staff>
-                     <gliss startid="#note-0000000387804174" endid="#note-0000001641057499" color="purple" />
-                     <gliss startid="#note-0000000821839605" endid="#note-0000001592091470" color="orange" />
-                     <gliss startid="#note-0000000774533766" endid="#note-0000000184866789" color="blue" />
-                     <gliss startid="#note-0000001641057499" endid="#note-0000000115699169" color="cyan" />
-                     <gliss startid="#note-0000001592091470" endid="#note-0000001606207059" color="darkgreen" />
-                     <gliss startid="#note-0000000184866789" endid="#note-0000000115699169" color="violet" />
+                     <gliss color="purple" startid="#note-0000000387804174" endid="#note-0000001641057499" />
+                     <gliss color="orange" startid="#note-0000000821839605" endid="#note-0000001592091470" />
+                     <gliss color="blue" startid="#note-0000000774533766" endid="#note-0000000184866789" />
+                     <gliss color="cyan" startid="#note-0000001641057499" endid="#note-0000000115699169" />
+                     <gliss color="darkgreen" startid="#note-0000001592091470" endid="#note-0000001606207059" />
+                     <gliss color="violet" startid="#note-0000000184866789" endid="#note-0000000115699169" />
                   </measure>
                   <measure right="end" n="2">
                      <staff n="1">
@@ -75,9 +75,9 @@
                            </chord>
                         </layer>
                      </staff>
-                     <gliss startid="#note-0000000993369007" endid="#note-0000000230987856" color="chartreuse" />
-                     <gliss startid="#note-0000001606207059" endid="#note-0000000656887221" color="goldenrod" />
-                     <gliss startid="#note-0000000115699169" endid="#note-0000000656887221" color="hotpink" />
+                     <gliss color="chartreuse" startid="#note-0000000993369007" endid="#note-0000000230987856" />
+                     <gliss color="goldenrod" startid="#note-0000001606207059" endid="#note-0000000656887221" />
+                     <gliss color="hotpink" startid="#note-0000000115699169" endid="#note-0000000656887221" />
                   </measure>
                </section>
             </score>

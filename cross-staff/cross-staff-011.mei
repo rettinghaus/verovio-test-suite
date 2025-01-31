@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -14,8 +14,8 @@
          <pubStmt>
             <date>2020-11-29</date>
             <pubPlace>
-                <ref target="https://github.com/rism-digital/verovio/issues/1799"/>
-            </pubPlace>        
+               <ref target="https://github.com/rism-digital/verovio/issues/1799" />
+            </pubPlace>
          </pubStmt>
          <notesStmt>
             <annot>Cross-staff content and text control event placement</annot>
@@ -34,7 +34,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp symbol="brace" bar.thru="true">
+                  <staffGrp bar.thru="true" symbol="brace">
                      <staffDef n="1" lines="5">
                         <clef shape="G" line="2" />
                      </staffDef>
@@ -66,7 +66,7 @@
                            <note dur="4" oct="2" pname="e" stem.dir="down" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="2" tstamp="1.000000">
+                     <dir place="above" staff="2" tstamp="1">
                         <rend fontstyle="normal">some text</rend>
                      </dir>
                   </measure>
@@ -92,7 +92,7 @@
                            <note dur="4" oct="2" pname="e" stem.dir="down" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="2" tstamp="1.000000">
+                     <dir place="above" staff="2" tstamp="1">
                         <rend fontstyle="normal">some text</rend>
                      </dir>
                   </measure>

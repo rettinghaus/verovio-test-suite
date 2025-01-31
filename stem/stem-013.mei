@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -46,15 +46,15 @@
                         <layer n="1">
                            <chord dur="4">
                               <note oct="4" pname="g" />
-                              <note oct="3" pname="g" staff="2"/>
+                              <note staff="2" oct="3" pname="g" />
                            </chord>
                            <chord dur="4">
                               <note oct="4" pname="g" />
-                              <note oct="4" pname="c" staff="2"/>
+                              <note staff="2" oct="4" pname="c" />
                            </chord>
                            <chord dur="4">
                               <note oct="4" pname="g" />
-                              <note oct="4" pname="e" staff="2"/>
+                              <note staff="2" oct="4" pname="e" />
                            </chord>
                         </layer>
                      </staff>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -68,9 +68,9 @@
                            </beam>
                         </layer>
                      </staff>
-                     <turn staff="1" startid="#note-L6F1" form="upper" delayed="true" />
+                     <turn staff="1" startid="#note-L6F1" delayed="true" form="upper" />
                      <tie startid="#note-L6F1" endid="#note-L7F1" />
-                     <turn staff="1" startid="#note-L6F2" form="upper" delayed="true" />
+                     <turn staff="1" startid="#note-L6F2" delayed="true" form="upper" />
                      <tie startid="#note-L6F2" endid="#note-L7F2" />
                   </measure>
                </section>

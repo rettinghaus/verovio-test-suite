@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -37,6 +37,7 @@
                <scoreDef>
                   <staffGrp>
                      <staffGrp bar.thru="true">
+                        <grpSym symbol="brace" />
                         <label>Piano</label>
                         <instrDef midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
                         <staffDef n="1" lines="5" ppq="4">
@@ -49,7 +50,6 @@
                            <keySig sig="0" />
                            <meterSig count="4" unit="4" />
                         </staffDef>
-                        <grpSym symbol="brace" />
                      </staffGrp>
                   </staffGrp>
                </scoreDef>
@@ -106,7 +106,7 @@
                            <rest dur="8" />
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="96">
+                     <tempo place="above" staff="1" tstamp="1" xml:lang="it" midi.bpm="96">
                         <rend fontfam="Times New Roman" fontweight="bold">Un peu retenu</rend>
                      </tempo>
                      <slur startid="#nknqyq" endid="#n67uxo" curvedir="above" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -48,7 +48,7 @@
                            <note xml:id="m0-s1-note6" dur="8" oct="4" pname="e" />
                         </layer>
                      </staff>
-                     <slur startid="#m0-s1-note4" endid="#m0-s1-note6" color="orange" curvedir="above" />
+                     <slur color="orange" startid="#m0-s1-note4" endid="#m0-s1-note6" curvedir="above" />
                   </measure>
                   <measure n="1">
                      <staff n="1">
@@ -57,7 +57,7 @@
                            <note xml:id="m1-s1-note2" dur="16" oct="4" pname="g" />
                         </layer>
                      </staff>
-                     <tie startid="#m1-s1-note1" endid="#m1-s1-note2" color="orange" />
+                     <tie color="orange" startid="#m1-s1-note1" endid="#m1-s1-note2" />
                   </measure>
                </section>
             </score>

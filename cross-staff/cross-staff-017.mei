@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -119,7 +119,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dir place="below" staff="2" tstamp="1.000000">
+                     <dir place="below" staff="2" tstamp="1">
                         <rend color="dodgerblue" fontstyle="normal">automatic</rend>
                      </dir>
                   </measure>
@@ -160,7 +160,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dir place="below" staff="2" tstamp="1.000000">
+                     <dir place="below" staff="2" tstamp="1">
                         <rend color="dodgerblue" fontstyle="normal">expected</rend>
                      </dir>
                   </measure>

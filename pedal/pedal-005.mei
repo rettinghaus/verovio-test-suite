@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -51,12 +51,12 @@
                            <note dur="2" oct="4" pname="d" accid.ges="n" />
                         </layer>
                      </staff>
-                     <pedal staff="1" tstamp="1.000000" dir="down" vgrp="2" />
-                     <dynam staff="1" tstamp="1.000000" vgrp="1">p</dynam>
-                     <hairpin staff="1" tstamp="1.000000" tstamp2="0m+3.0000" form="cres" vgrp="1" />
-                     <dynam staff="1" tstamp="3.000000" vgrp="1">f</dynam>
-                     <hairpin staff="1" tstamp="3.500000" tstamp2="0m+4.5000" form="dim" vgrp="1" />
-                     <pedal staff="1" tstamp="5.000000" dir="up" vgrp="2" />
+                     <pedal staff="1" tstamp="1" dir="down" vgrp="2" />
+                     <dynam staff="1" tstamp="1" vgrp="1">p</dynam>
+                     <hairpin staff="1" tstamp="1" tstamp2="0m+3" form="cres" vgrp="1" />
+                     <dynam staff="1" tstamp="3" vgrp="1">f</dynam>
+                     <hairpin staff="1" tstamp="3.5" tstamp2="0m+4.5" form="dim" vgrp="1" />
+                     <pedal staff="1" tstamp="5" dir="up" vgrp="2" />
                   </measure>
                </section>
             </score>

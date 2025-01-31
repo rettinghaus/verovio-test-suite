@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -53,7 +53,7 @@
                            </note>
                         </layer>
                      </staff>
-                     <tempo tstamp="1.000000">
+                     <tempo tstamp="1">
                         <rend color="hsl(0,100%,50%)">A</rend>
                         <rend color="hsl(35,100%,50%)">n</rend>
                         <rend color="hsl(70,100%,50%)">d</rend>
@@ -64,8 +64,8 @@
                         <rend color="hsl(245,100%,50%)">n</rend>
                         <rend color="hsl(280,100%,50%)">o</rend>
                      </tempo>
-                     <tie startid="#d414233e2644" endid="#d414233e2665" color="hsl(240,85%,35%)" />
-                     <hairpin startid="#d414233e2598" endid="#d414233e2665" color="rgb(24,231,76)" form="cres" place="above" />
+                     <tie color="hsl(240,85%,35%)" startid="#d414233e2644" endid="#d414233e2665" />
+                     <hairpin color="rgb(24,231,76)" startid="#d414233e2598" endid="#d414233e2665" form="cres" place="above" />
                   </measure>
                   <measure n="2">
                      <staff n="1">
@@ -75,7 +75,7 @@
                            </note>
                         </layer>
                      </staff>
-                     <fermata tstamp="1.000000" color="rgb(60,120,240)" place="above" />
+                     <fermata color="rgb(60,120,240)" tstamp="1" place="above" />
                   </measure>
                </section>
             </score>

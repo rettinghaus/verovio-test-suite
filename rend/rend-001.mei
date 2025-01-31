@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -56,7 +56,7 @@
                            <note dur="1" oct="4" pname="f" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="5.000000">
+                     <dir place="above" staff="1" tstamp="5">
                         <rend halign="right" fontstyle="normal">some text</rend>
                      </dir>
                   </measure>
@@ -81,7 +81,7 @@
                            <note dur="1" oct="4" pname="e" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dir place="below" staff="1" tstamp="5.000000">
+                     <dir place="below" staff="1" tstamp="5">
                         <rend halign="right">fine</rend>
                      </dir>
                   </measure>

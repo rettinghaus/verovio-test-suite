@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -55,14 +55,14 @@
                            <note dur="4" oct="4" pname="e" />
                         </layer>
                      </staff>
-                     <dir place="above" tstamp="1.000000">
+                     <dir place="above" tstamp="1">
                         <symbol glyph.auth="smufl" glyph.num="U+E530" />
                         <symbol color="crimson" glyph.auth="smufl" glyph.name="dynamicForte" />
                      </dir>
-                     <dir place="above" tstamp="2.000000">
+                     <dir place="above" tstamp="2">
                         <symbol glyph.auth="smufl" glyph.num="U+E7E4" />
                      </dir>
-                     <dir place="above" tstamp="3.000000">
+                     <dir place="above" tstamp="3">
                         <symbol color="darkcyan" glyph.auth="smufl" glyph.num="U+E7E4" fontsize="x-large" />
                      </dir>
                   </measure>

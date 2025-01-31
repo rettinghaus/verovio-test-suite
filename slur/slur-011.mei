@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -58,7 +58,7 @@
                         </layer>
                      </staff>
                      <slur staff="1" startid="#note-L3F2" endid="#note-L4F2" curvedir="above" />
-                     <dir place="above" staff="1" tstamp="1.000000">curvedir="above"</dir>
+                     <dir place="above" staff="1" tstamp="1">curvedir="above"</dir>
                   </measure>
                   <measure n="3">
                      <staff n="1">
@@ -68,7 +68,7 @@
                         </layer>
                      </staff>
                      <slur staff="1" startid="#note-L3F3" endid="#note-L4F3" />
-                     <dir place="above" staff="1" tstamp="1.000000">stem.dir="down"</dir>
+                     <dir place="above" staff="1" tstamp="1">stem.dir="down"</dir>
                   </measure>
                   <measure n="4">
                      <staff n="1">
@@ -99,7 +99,7 @@
                         </layer>
                      </staff>
                      <slur staff="1" startid="#chord-L3F5" endid="#chord-L4F5" curvedir="above" />
-                     <dir place="above" staff="1" tstamp="1.000000">curvedir="above"</dir>
+                     <dir place="above" staff="1" tstamp="1">curvedir="above"</dir>
                   </measure>
                   <measure n="6">
                      <staff n="1">
@@ -115,7 +115,7 @@
                         </layer>
                      </staff>
                      <slur staff="1" startid="#chord-L3F6" endid="#chord-L4F6" />
-                     <dir place="above" staff="1" tstamp="1.000000">stem.dir="down"</dir>
+                     <dir place="above" staff="1" tstamp="1">stem.dir="down"</dir>
                   </measure>
                </section>
             </score>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -99,7 +99,7 @@
                      <tie startid="#note-m17-l2-1" endid="#note-m17-l2-4" curvedir="below" />
                      <tie startid="#note-m17-l2-2" endid="#note-m17-l1-1" curvedir="above" />
                      <tie startid="#note-m17-l2-3" endid="#note-m17-l2-5" curvedir="above" />
-                     <hairpin staff="2" tstamp="2.000000" tstamp2="0m+5.0000" form="cres" />
+                     <hairpin staff="2" tstamp="2" tstamp2="0m+5" form="cres" />
                      <fing place="below" staff="2" startid="#note-m17-l3-1">5</fing>
                      <fing place="below" staff="2" startid="#note-m17-l3-2">1</fing>
                      <fing place="below" staff="2" startid="#note-m17-l3-3">3</fing>
@@ -164,7 +164,7 @@
                      </staff>
                      <slur startid="#chord-m18-l2-1" endid="#chord-m18-l2-2" curvedir="above" />
                      <slur startid="#chord-m18-l2-1" endid="#chord-m18-l2-2" curvedir="below" />
-                     <hairpin staff="2" tstamp="1.000000" tstamp2="0m+5.0000" form="dim" />
+                     <hairpin staff="2" tstamp="1" tstamp2="0m+5" form="dim" />
                      <fing place="below" staff="2" startid="#note-m18-l3-1">1</fing>
                      <fing place="below" staff="2" startid="#note-m18-l3-2">4</fing>
                      <fing place="below" staff="2" startid="#note-m18-l3-3">1</fing>

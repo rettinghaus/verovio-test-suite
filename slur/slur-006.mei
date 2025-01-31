@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -62,10 +62,10 @@
                            <note dots="1" dur="2" oct="4" pname="d" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">ten.</dir>
-                     <dynam staff="1" tstamp="2.500000">pp</dynam>
+                     <dir place="above" staff="1" tstamp="1">ten.</dir>
+                     <dynam staff="1" tstamp="2.5">pp</dynam>
                      <slur staff="1" startid="#chord-000000206849720" endid="#chord-000000028066101" />
-                     <dynam staff="1" tstamp="1.000000">sf</dynam>
+                     <dynam staff="1" tstamp="1">sf</dynam>
                      <staff n="2">
                         <!-- kern: **kern  *clefF4  *M3/4  *^  4r  8r  (8cnL  8B  8AJ)  *v  = -->
                         <layer n="1">
@@ -118,7 +118,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dir place="above" staff="2" tstamp="1.000000">riten.</dir>
+                     <dir place="above" staff="2" tstamp="1">riten.</dir>
                      <slur staff="2" startid="#note-000000051672979" endid="#note-000000120866214" />
                      <slur staff="2" startid="#note-000000211839453" endid="#note-000000072548209" />
                   </measure>

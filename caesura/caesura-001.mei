@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -51,8 +51,8 @@
                            <note dur="2" oct="4" pname="e" accid.ges="n" />
                         </layer>
                      </staff>
-                     <caesura staff="1" tstamp="1.900000" />
-                     <caesura tstamp="4.000000" glyph.name="caesuraCurved" />
+                     <caesura staff="1" tstamp="1.9" />
+                     <caesura tstamp="4" glyph.name="caesuraCurved" />
                   </measure>
                   <measure right="dbl">
                      <staff n="1">

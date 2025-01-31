@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -38,9 +38,9 @@
                   <measure n="5">
                      <staff n="1">
                         <layer n="1">
-                           <note xml:id="d690095e1338" dur="4" oct="5" pname="f" tie="i" />
+                           <note xml:id="d690095e1338" dur="4" oct="5" pname="f" />
                            <beam>
-                              <note xml:id="d690095e1355" dur="8" oct="5" pname="f" tie="t" />
+                              <note xml:id="d690095e1355" dur="8" oct="5" pname="f" />
                               <note dur="16" oct="5" pname="g" />
                               <note dur="16" oct="5" pname="f" />
                            </beam>
@@ -52,7 +52,7 @@
                      </staff>
                      <staff n="2">
                         <layer n="1">
-                           <note xml:id="d690095e1454" dots="1" dur="2" oct="4" pname="b" tie="i" />
+                           <note xml:id="d690095e1454" dots="1" dur="2" oct="4" pname="b" />
                         </layer>
                      </staff>
                      <staff n="3">
@@ -65,11 +65,13 @@
                            <note xml:id="d690095e1513" dots="1" dur="2" oct="3" pname="d" />
                         </layer>
                      </staff>
-                     <dynam place="below" staff="1 2 3 4" tstamp="1.000000">p</dynam>
-                     <hairpin staff="1 2 3 4" tstamp="1.500000" tstamp2="1m+1.5000" form="cres" place="below" />
+                     <dynam place="below" staff="1 2 3 4" tstamp="1">p</dynam>
+                     <hairpin staff="1 2 3 4" tstamp="1.5" tstamp2="1m+1.5" form="cres" place="below" />
                      <slur startid="#d690095e1355" endid="#d690095e1411" curvedir="above" />
                      <slur startid="#d690095e1485" endid="#d690095e1620" curvedir="above" />
                      <slur startid="#d690095e1513" endid="#d690095e1651" curvedir="above" />
+                     <tie startid="#d690095e1338" endid="#d690095e1355" />
+                     <tie startid="#d690095e1454" endid="#d690095e1580" />
                   </measure>
                   <measure n="6">
                      <staff n="1">
@@ -80,7 +82,7 @@
                      </staff>
                      <staff n="2">
                         <layer n="1">
-                           <note xml:id="d690095e1580" dur="2" oct="4" pname="b" tie="t" />
+                           <note xml:id="d690095e1580" dur="2" oct="4" pname="b" />
                            <note xml:id="d690095e1603" dur="4" oct="4" pname="g" />
                         </layer>
                      </staff>
@@ -94,7 +96,7 @@
                            <note xml:id="d690095e1651" dots="1" dur="2" oct="3" pname="e" />
                         </layer>
                      </staff>
-                     <hairpin staff="1 2 3 4" tstamp="2.000000" tstamp2="0m+4.0000" form="dim" place="below" />
+                     <hairpin staff="1 2 3 4" tstamp="2" tstamp2="0m+4" form="dim" place="below" />
                      <slur startid="#d690095e1542" endid="#d690095e1558" curvedir="above" />
                      <slur startid="#d690095e1580" endid="#d690095e1603" curvedir="above" />
                   </measure>

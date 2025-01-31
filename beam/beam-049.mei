@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -60,10 +60,10 @@
                            <rest dur="8" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="0.500000">
+                     <dir place="above" staff="1" tstamp="0.5">
                         <rend halign="center" fontsize="125.00%" fontstyle="normal" fontweight="normal">VAR. XIII</rend>
                      </dir>
-                     <dynam place="below" staff="1" tstamp="0.750000" vgrp="1300">sempre f</dynam>
+                     <dynam place="below" staff="1" tstamp="0.75" vgrp="1300">sempre f</dynam>
                      <slur startid="#note-0000000396278772" endid="#note-0000001704964791" />
                   </measure>
                   <measure left="rptstart" n="327">

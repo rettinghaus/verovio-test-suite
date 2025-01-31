@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -69,14 +69,14 @@
                            <rest dur="4" />
                         </layer>
                      </staff>
-                     <lv startid="#n1tuq93d" tstamp2="0m+3.0" />
-                     <lv startid="#nciq2mh" tstamp2="0m+3.0" />
-                     <lv startid="#nv4fpxf" tstamp2="0m+3.0" />
-                     <lv startid="#ndc9tyk" tstamp2="0m+3.0" />
-                     <lv startid="#nqgqi0" tstamp2="0m+3.0" />
-                     <lv startid="#n1tlo9m4" tstamp2="0m+3.0" />
-                     <lv startid="#ngzt3e1" tstamp2="0m+3.0" />
-                     <lv startid="#nvuu01k" tstamp2="0m+3.0" />
+                     <lv startid="#n1tuq93d" tstamp2="0m+3" />
+                     <lv startid="#nciq2mh" tstamp2="0m+3" />
+                     <lv startid="#nv4fpxf" tstamp2="0m+3" />
+                     <lv startid="#ndc9tyk" tstamp2="0m+3" />
+                     <lv startid="#nqgqi0" tstamp2="0m+3" />
+                     <lv startid="#n1tlo9m4" tstamp2="0m+3" />
+                     <lv startid="#ngzt3e1" tstamp2="0m+3" />
+                     <lv startid="#nvuu01k" tstamp2="0m+3" />
                   </measure>
                   <measure right="end" n="2">
                      <staff n="1">
@@ -119,10 +119,10 @@
                      <lv startid="#nxqqg27" tstamp2="0m+3.6" />
                      <lv startid="#n1l7h763" tstamp2="0m+3.6" />
                      <lv startid="#n1osb8h3" tstamp2="0m+3.6" />
-                     <lv startid="#n171q2xw" tstamp2="0m+3.0" />
-                     <lv startid="#n1rb8tvq" tstamp2="0m+3.0" />
-                     <lv startid="#n1h2en3w" tstamp2="0m+3.0" />
-                     <lv startid="#n1ymbffp" tstamp2="0m+3.0" />
+                     <lv startid="#n171q2xw" tstamp2="0m+3" />
+                     <lv startid="#n1rb8tvq" tstamp2="0m+3" />
+                     <lv startid="#n1h2en3w" tstamp2="0m+3" />
+                     <lv startid="#n1ymbffp" tstamp2="0m+3" />
                   </measure>
                </section>
             </score>

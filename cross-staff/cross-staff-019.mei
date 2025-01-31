@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -73,8 +73,8 @@
                      </staff>
                      <dynam place="between" staff="1 2" startid="#note_4038">f</dynam>
                      <slur staff="1" startid="#note_4002" endid="#note_4026" />
-                     <slur staff="1" startid="#note_4038" endid="#note_4050" color="blue" />
-                     <dir place="below" staff="2" tstamp="1.000000">
+                     <slur color="blue" staff="1" startid="#note_4038" endid="#note_4050" />
+                     <dir place="below" staff="2" tstamp="1">
                         <rend color="blue" fontstyle="normal">automatic<lb />(layers)</rend>
                      </dir>
                   </measure>
@@ -111,8 +111,8 @@
                      <dynam place="between" staff="1 2" startid="#note_4194a">f</dynam>
                      <slur staff="1" startid="#note_4152a" endid="#note_4164a" curvedir="above" />
                      <slur staff="1" startid="#note_4164a" endid="#note_4176a" curvedir="above" />
-                     <slur staff="1" startid="#note_4194a" endid="#note_4206a" color="green" />
-                     <dir place="below" staff="2" tstamp="1.000000">
+                     <slur color="green" staff="1" startid="#note_4194a" endid="#note_4206a" />
+                     <dir place="below" staff="2" tstamp="1">
                         <rend color="green" fontstyle="normal">automatic<lb />(cross-staff)</rend>
                      </dir>
                   </measure>
@@ -155,8 +155,8 @@
                      <dynam place="between" staff="1 2" startid="#note_4194b">f</dynam>
                      <slur staff="1" startid="#note_4152b" endid="#note_4164b" curvedir="above" />
                      <slur staff="1" startid="#note_4164b" endid="#note_4176b" curvedir="above" />
-                     <slur staff="1" startid="#note_4194b" endid="#note_4206b" color="green" curvedir="above" />
-                     <dir place="below" staff="2" tstamp="1.000000">
+                     <slur color="green" staff="1" startid="#note_4194b" endid="#note_4206b" curvedir="above" />
+                     <dir place="below" staff="2" tstamp="1">
                         <rend color="green" fontstyle="normal">expected<lb />(cross-staff)</rend>
                      </dir>
                   </measure>

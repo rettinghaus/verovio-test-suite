@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -44,10 +44,10 @@
                            <note dur="4" oct="4" pname="f" />
                         </layer>
                      </staff>
-                     <dynam staff="1" tstamp="1.000000">p</dynam>
-                     <dynam staff="1" tstamp="2.000000">f</dynam>
-                     <dynam staff="1" tstamp="3.000000">pf</dynam>
-                     <dynam staff="1" tstamp="4.000000">rfz</dynam>
+                     <dynam staff="1" tstamp="1">p</dynam>
+                     <dynam staff="1" tstamp="2">f</dynam>
+                     <dynam staff="1" tstamp="3">pf</dynam>
+                     <dynam staff="1" tstamp="4">rfz</dynam>
                   </measure>
                   <measure n="2">
                      <staff n="1">
@@ -58,10 +58,10 @@
                            <note dur="4" oct="5" pname="c" />
                         </layer>
                      </staff>
-                     <dynam staff="1" tstamp="1.000000">mf</dynam>
-                     <dynam staff="1" tstamp="2.000000">mp</dynam>
-                     <dynam staff="1" tstamp="3.000000">sfp</dynam>
-                     <dynam staff="1" tstamp="4.000000">sfz</dynam>
+                     <dynam staff="1" tstamp="1">mf</dynam>
+                     <dynam staff="1" tstamp="2">mp</dynam>
+                     <dynam staff="1" tstamp="3">sfp</dynam>
+                     <dynam staff="1" tstamp="4">sfz</dynam>
                   </measure>
                   <measure n="3">
                      <staff n="1">
@@ -70,8 +70,8 @@
                            <note dur="2" oct="4" pname="c" />
                         </layer>
                      </staff>
-                     <dynam staff="1" tstamp="1.000000">ppppp</dynam>
-                     <dynam staff="1" tstamp="3.000000">fffff</dynam>
+                     <dynam staff="1" tstamp="1">ppppp</dynam>
+                     <dynam staff="1" tstamp="3">fffff</dynam>
                   </measure>
                </section>
             </score>

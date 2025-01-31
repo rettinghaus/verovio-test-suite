@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -41,9 +41,15 @@
                            <note dur="4" oct="4" pname="c" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1"><rend fontfam="smufl" fontstyle="normal">&#xe045;</rend></dir>
-                     <dir place="above" staff="1" tstamp="2"><rend fontfam="smufl" fontstyle="normal">&#xe046;</rend></dir>
-                     <dir place="above" staff="1" tstamp="4"><rend fontfam="smufl" fontstyle="normal">&#xe047;</rend></dir>
+                     <dir place="above" staff="1" tstamp="1">
+                        <rend glyph.auth="smufl" fontstyle="normal"></rend>
+                     </dir>
+                     <dir place="above" staff="1" tstamp="2">
+                        <rend glyph.auth="smufl" fontstyle="normal"></rend>
+                     </dir>
+                     <dir place="above" staff="1" tstamp="4">
+                        <rend glyph.auth="smufl" fontstyle="normal"></rend>
+                     </dir>
                   </measure>
                   <measure right="end">
                      <staff n="1">
@@ -54,8 +60,12 @@
                            <note dur="4" oct="4" pname="c" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1"><rend fontfam="smufl" fontstyle="normal">&#xe048;</rend></dir>
-                     <dir place="above" staff="1" tstamp="3"><rend fontfam="smufl" fontstyle="normal">&#xe049;</rend></dir>
+                     <dir place="above" staff="1" tstamp="1">
+                        <rend glyph.auth="smufl" fontstyle="normal"></rend>
+                     </dir>
+                     <dir place="above" staff="1" tstamp="3">
+                        <rend glyph.auth="smufl" fontstyle="normal"></rend>
+                     </dir>
                   </measure>
                </section>
             </score>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -57,8 +57,8 @@
                            </fTrem>
                         </layer>
                      </staff>
-                     <slur type="ftrem" staff="1" startid="#note-L10F1" endid="#note-L13F1" color="coral" curvedir="below" />
-                     <slur type="ftrem" staff="1" startid="#note-L6F1" endid="#note-L9F1" color="coral" />
+                     <slur color="coral" type="ftrem" staff="1" startid="#note-L10F1" endid="#note-L13F1" curvedir="below" />
+                     <slur color="coral" type="ftrem" staff="1" startid="#note-L6F1" endid="#note-L9F1" />
                   </measure>
                   <measure>
                      <staff n="1">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -47,7 +47,7 @@
                            <note dur="4" oct="4" pname="g" stem.dir="down" />
                         </layer>
                      </staff>
-                     <trill staff="1" tstamp="1.000000" tstamp2="0m+1.9000" />
+                     <trill staff="1" tstamp="1" tstamp2="0m+1.9" />
                   </measure>
                   <measure right="dbl" n="2">
                      <staff n="1">
@@ -72,7 +72,7 @@
                            <note dur="4" oct="4" pname="b" stem.dir="down" />
                         </layer>
                      </staff>
-                     <trill staff="1" tstamp="1.000000" place="above" />
+                     <trill staff="1" tstamp="1" place="above" />
                   </measure>
                   <measure right="dbl" n="4">
                      <staff n="1">
@@ -99,7 +99,7 @@
                            <note dur="4" oct="5" pname="c" stem.dir="down" accid.ges="s" />
                         </layer>
                      </staff>
-                     <trill staff="1" tstamp="1.000000" color="fuchsia" place="below" />
+                     <trill color="fuchsia" staff="1" tstamp="1" place="below" />
                   </measure>
                   <measure right="dbl" n="6">
                      <staff n="1">

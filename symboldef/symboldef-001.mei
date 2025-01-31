@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>User defined symbols</title>
          </titleStmt>
          <pubStmt>
-            <date isodate="2022-12-20"/>
+            <date isodate="2022-12-20" />
          </pubStmt>
          <seriesStmt>
             <title>Verovio test suite</title>
@@ -90,16 +90,16 @@
                      </staff>
                      <staff n="2">
                         <layer n="1">
-                           <mRest xml:id="mrest1"/>
+                           <mRest xml:id="mrest1" />
                         </layer>
                      </staff>
                      <staff n="3">
                         <layer n="1">
-                           <mRest/>
+                           <mRest />
                         </layer>
                      </staff>
-                     <fermata staff="2 3" startid="#mrest1" altsym="#custom-fermata" enclose="brack" />
-                     <caesura staff="1 2" tstamp="4.3" altsym="#smile" />
+                     <fermata altsym="#custom-fermata" staff="2 3" startid="#mrest1" enclose="brack" />
+                     <caesura altsym="#smile" staff="1 2" tstamp="4.3" />
                   </measure>
                </section>
             </score>
