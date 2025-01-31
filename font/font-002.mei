@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -33,12 +33,12 @@
       <body>
          <mdiv>
             <score>
-               <scoreDef midi.bpm="112.000000">
+               <scoreDef midi.bpm="112">
                   <staffGrp bar.thru="true" symbol="brace">
                      <staffDef n="1" lines="5">
                         <clef shape="G" color="olive" line="2" fontname="Petaluma" />
                         <keySig mode="major" sig="3s" pname="a" />
-                        <meterSig enclose="brack" count="3" sym="common" unit="8" fontname="Petaluma" color="olive" />
+                        <meterSig color="olive" enclose="brack" count="3" sym="common" unit="8" fontname="Petaluma" />
                      </staffDef>
                      <staffDef n="2" lines="5">
                         <clef shape="F" line="4" />
@@ -65,13 +65,13 @@
                         <layer n="1">
                            <rest dur="8" />
                            <rest dur="8" />
-                           <clef shape="G" line="2" color="orange" />
+                           <clef shape="G" color="orange" line="2" />
                            <note dur="8" oct="4" pname="a" accid.ges="n">
                               <artic artic="stacciss" />
                            </note>
                         </layer>
                      </staff>
-                     <dynam place="between" staff="1 2" tstamp="1.000000">mezzo f</dynam>
+                     <dynam place="between" staff="1 2" tstamp="1">mezzo f</dynam>
                      <slur staff="1" startid="#note-L9F2" endid="#note-L22F2" />
                   </measure>
                   <measure n="16">
