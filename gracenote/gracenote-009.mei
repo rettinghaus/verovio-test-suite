@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -27,9 +27,9 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp symbol="brace" bar.thru="true">
-                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="2s" meter.count="2" meter.unit="2" meter.sym="cut" />
-                     <staffDef n="2" lines="5" clef.shape="F" clef.line="4" key.sig="2s" meter.count="2" meter.unit="2" meter.sym="cut" />
+                  <staffGrp bar.thru="true" symbol="brace">
+                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" keysig="2s" meter.count="2" meter.unit="2" meter.sym="cut" />
+                     <staffDef n="2" lines="5" clef.shape="F" clef.line="4" keysig="2s" meter.count="2" meter.unit="2" meter.sym="cut" />
                   </staffGrp>
                </scoreDef>
                <section>
@@ -118,7 +118,7 @@
                         </layer>
                      </staff>
                      <slur staff="1" startid="#note-L168F2" endid="#note-L169F2" />
-                     <dynam staff="1" tstamp="2.000000">f</dynam>
+                     <dynam staff="1" tstamp="2">f</dynam>
                      <tie startid="#note-L168F1S1" endid="#note-L169F1S1" />
                      <slur staff="2" startid="#chord-L168F1" endid="#chord-L169F1" curvedir="above" />
                      <slur staff="2" startid="#note-L172F1" endid="#note-L174F1" />

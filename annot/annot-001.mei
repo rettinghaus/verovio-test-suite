@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -57,17 +57,13 @@
                            <annot>layer annotation</annot>
                         </layer>
                      </staff>
-                     <dir staff="1" tstamp="1.000000">
+                     <dir staff="1" tstamp="1">
                         <annot>annotation before text</annot>
-                        molto dolce
-                     </dir>
-                     <dir staff="1" tstamp="2.000000">
-                        più
+                        molto dolce</dir>
+                     <dir staff="1" tstamp="2">più
                         <annot>annotation between text</annot>
-                        exp.
-                     </dir>
-                     <dir staff="1" tstamp="3.000000">
-                        bouche fermée
+                        exp.</dir>
+                     <dir staff="1" tstamp="3">bouche fermée
                         <del>totalement</del>
                         <annot>annotation after text</annot>
                      </dir>

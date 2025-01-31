@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -27,7 +27,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp symbol="brace" bar.thru="true">
+                  <staffGrp bar.thru="true" symbol="brace">
                      <staffDef n="1" lines="5" clef.shape="G" clef.line="2" keysig="5f" />
                      <staffDef n="2" lines="5" clef.shape="F" clef.line="4" keysig="5f" />
                   </staffGrp>
@@ -65,11 +65,11 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">sotto voce</dir>
-                     <trill staff="1" tstamp="1.000000" />
+                     <dir place="above" staff="1" tstamp="1">sotto voce</dir>
+                     <trill staff="1" tstamp="1" />
                      <slur staff="1" startid="#note-L9F2" endid="#note-L14F2" />
-                     <pedal staff="2" tstamp="1.000000" dir="down" />
-                     <pedal staff="2" tstamp="3.500000" dir="up" />
+                     <pedal staff="2" tstamp="1" dir="down" />
+                     <pedal staff="2" tstamp="3.5" dir="up" />
                   </measure>
                </section>
             </score>

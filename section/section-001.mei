@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -9,7 +9,7 @@
             <respStmt>
                <persName role="editor">Laurent Pugin</persName>
                <persName role="encoder">uzumaki
-                  <ref target="https://musescore.com/user/34386"/>   
+                  <ref target="https://musescore.com/user/34386" />
                </persName>
                <persName role="composer">Ludwig van Beethoven</persName>
             </respStmt>
@@ -39,7 +39,7 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffGrp bar.thru="true" symbol="brace" n="1">
+                     <staffGrp n="1" bar.thru="true" symbol="brace">
                         <label>Thema</label>
                         <instrDef midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
                         <staffDef n="1" lines="5" ppq="24">
@@ -71,7 +71,7 @@
                               <rest dur="4" />
                            </layer>
                         </staff>
-                        <tempo place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="96">Andante con moto</tempo>
+                        <tempo place="above" staff="1" tstamp="1" xml:lang="it" midi.bpm="96">Andante con moto</tempo>
                         <slur startid="#note-0000001690404838" endid="#note-0000000549937366" />
                      </measure>
                      <measure n="2">
@@ -148,10 +148,10 @@
                      <scoreDef>
                         <staffGrp>
                            <staffGrp n="1">
+                              <grpSym symbol="brace" />
                               <label>Var I</label>
                               <staffDef n="1" lines="5" />
                               <staffDef n="2" lines="5" />
-                              <grpSym symbol="brace" />
                            </staffGrp>
                         </staffGrp>
                      </scoreDef>
@@ -228,7 +228,7 @@
                               <beam>
                                  <tuplet num="3" numbase="2" bracket.visible="false">
                                     <note dur="8" oct="4" pname="b" stem.dir="up">
-                                       <accid accid="f"/>
+                                       <accid accid="f" />
                                     </note>
                                     <note dur="8" oct="4" pname="a" stem.dir="up" />
                                     <note dur="8" oct="4" pname="g" stem.dir="up" />
@@ -300,10 +300,10 @@
                         <meterSig sym="cut" />
                         <staffGrp>
                            <staffGrp n="1">
+                              <grpSym symbol="brace" />
                               <label>Var II</label>
                               <staffDef n="1" lines="5" />
                               <staffDef n="2" lines="5" />
-                              <grpSym symbol="brace" />
                            </staffGrp>
                         </staffGrp>
                      </scoreDef>
@@ -380,7 +380,7 @@
                            </layer>
                         </staff>
                      </measure>
-                     <sb/>
+                     <sb />
                      <measure right="end" n="36">
                         <staff n="1">
                            <layer n="1">
@@ -410,14 +410,14 @@
                   </section>
                   <section restart="true" label="var-III">
                      <scoreDef>
-                        <keySig sig="4f"/>
-                        <meterSig sym="common"/>
+                        <keySig sig="4f" />
+                        <meterSig sym="common" />
                         <staffGrp>
                            <staffGrp n="1">
+                              <grpSym symbol="brace" />
                               <label>Var III</label>
                               <staffDef n="1" lines="5" />
                               <staffDef n="2" lines="5" />
-                              <grpSym symbol="brace" />
                            </staffGrp>
                         </staffGrp>
                      </scoreDef>
@@ -467,7 +467,7 @@
                            </layer>
                         </staff>
                         <slur startid="#note-0000000421316471" endid="#note-0000001757179710" />
-                        <dynam place="below" staff="2" tstamp="1.000000" vgrp="200">sempre p e ligato</dynam>
+                        <dynam place="below" staff="2" tstamp="1" vgrp="200">sempre p e ligato</dynam>
                         <slur startid="#note-0000000543968398" endid="#note-0000001817620221" />
                      </measure>
                      <measure n="39">
@@ -529,13 +529,13 @@
                   <sb />
                   <section restart="true" label="var-IV">
                      <scoreDef>
-                        <keySig sig="1f" sig.showchange="true" />
+                        <keySig sig="1f" cancelaccid="before" />
                         <staffGrp>
                            <staffGrp n="1">
+                              <grpSym symbol="brace" />
                               <label>Var IV</label>
                               <staffDef n="1" lines="5" />
                               <staffDef n="2" lines="5" />
-                              <grpSym symbol="brace" />
                            </staffGrp>
                         </staffGrp>
                      </scoreDef>
@@ -553,7 +553,7 @@
                               <rest dur="4" />
                            </layer>
                         </staff>
-                        <dynam place="below" staff="1" tstamp="1.000000" val="96">f</dynam>
+                        <dynam place="below" staff="1" tstamp="1" val="96">f</dynam>
                      </measure>
                      <measure n="51">
                         <staff n="1">

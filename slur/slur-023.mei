@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -40,12 +40,12 @@
                         <staffDef n="1" lines="5">
                            <clef shape="G" line="2" visible="false" />
                            <keySig sig="0" visible="false" />
-                           <meterSig count="6" unit="8" form="invis" />
+                           <meterSig count="6" unit="8" visible="false" />
                         </staffDef>
                         <staffDef n="2" lines="5">
                            <clef shape="F" line="4" visible="false" />
                            <keySig sig="0" visible="false" />
-                           <meterSig count="6" unit="8" form="invis" />
+                           <meterSig count="6" unit="8" visible="false" />
                         </staffDef>
                      </staffGrp>
                   </staffGrp>
@@ -92,9 +92,9 @@
                               <note dur="8" oct="3" pname="b" />
                            </beam>
                            <beam staff="1">
-                              <note dur="8" oct="4" pname="e" staff="1" />
-                              <note dur="8" oct="4" pname="g" staff="1" />
-                              <note xml:id="nwv4568d" dur="8" oct="4" pname="b" staff="1" />
+                              <note dur="8" staff="1" oct="4" pname="e" />
+                              <note dur="8" staff="1" oct="4" pname="g" />
+                              <note xml:id="nwv4568d" dur="8" staff="1" oct="4" pname="b" />
                            </beam>
                         </layer>
                      </staff>
@@ -104,9 +104,9 @@
                      <staff n="1">
                         <layer n="1">
                            <beam>
-                              <note xml:id="nsh8ep2f" dur="8" oct="3" pname="e" staff="2" />
-                              <note dur="8" oct="3" pname="g" staff="2" />
-                              <note dur="8" oct="3" pname="b" staff="2" />
+                              <note xml:id="nsh8ep2f" dur="8" staff="2" oct="3" pname="e" />
+                              <note dur="8" staff="2" oct="3" pname="g" />
+                              <note dur="8" staff="2" oct="3" pname="b" />
                            </beam>
                            <beam staff="1">
                               <note dur="8" oct="4" pname="e" />

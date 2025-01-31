@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -138,7 +138,7 @@
                            <clef shape="G" line="2" />
                         </layer>
                      </staff>
-                     <dynam place="below" staff="1" tstamp="1.000000" vgrp="115">p</dynam>
+                     <dynam place="below" staff="1" tstamp="1" vgrp="115">p</dynam>
                      <tempo place="above" staff="1" startid="#note-0000001245833241" midi.bpm="160">non troppo presto</tempo>
                      <slur startid="#note-0000000252782235" endid="#note-0000000016801379" curvedir="above" />
                   </measure>

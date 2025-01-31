@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -29,7 +29,7 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="0" meter.count="4" meter.unit="4" />
+                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" keysig="0" meter.count="4" meter.unit="4" />
                   </staffGrp>
                </scoreDef>
                <section>
@@ -41,7 +41,7 @@
                            </note>
                         </layer>
                      </staff>
-                     <tempo staff="1" tstamp="1.000000">Minuet</tempo>
+                     <tempo staff="1" tstamp="1">Minuet</tempo>
                   </measure>
                   <ending n="1">
                      <measure n="2">
@@ -63,10 +63,10 @@
                               </note>
                            </layer>
                         </staff>
-                        <dir place="below" staff="1" tstamp="1.000000">fine</dir>
+                        <dir place="below" staff="1" tstamp="1">fine</dir>
                      </measure>
                   </ending>
-                  <scoreDef key.sig="1f" />
+                  <scoreDef keysig="1f" />
                   <measure left="rptstart" n="4">
                      <staff n="1">
                         <layer n="1">
@@ -75,7 +75,7 @@
                            </note>
                         </layer>
                      </staff>
-                     <tempo staff="1" tstamp="1.000000">Trio</tempo>
+                     <tempo staff="1" tstamp="1">Trio</tempo>
                   </measure>
                   <measure right="rptend" n="5">
                      <staff n="1">
@@ -85,7 +85,7 @@
                            </note>
                         </layer>
                      </staff>
-                     <dir place="below" staff="1" tstamp="1.000000">minuet da capo</dir>
+                     <dir place="below" staff="1" tstamp="1">minuet da capo</dir>
                   </measure>
                </section>
             </score>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -89,10 +89,10 @@
                            <note dur.ppq="2" dur="4" oct="3" pname="d" stem.dir="down" />
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="108.000000" mm="100.000000" mm.unit="4">
+                     <tempo place="above" staff="1" tstamp="1" xml:lang="it" midi.bpm="108" mm="100" mm.unit="4">
                         <rend fontfam="Palatino ldsLat Condensed Italic">Brightly</rend>
-                        <rend fontfam="smufl"></rend> = 100–108</tempo>
-                     <dir place="above" staff="1" tstamp="1.000000" vgrp="210">
+                        <rend glyph.auth="smufl"></rend> = 100–108</tempo>
+                     <dir place="above" staff="1" tstamp="1" vgrp="210">
                         <rend fontfam="DingPI ldsDpi">⌜</rend>
                      </dir>
                   </measure>
@@ -375,7 +375,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="3.000000" vgrp="210">
+                     <dir place="above" staff="1" tstamp="3" vgrp="210">
                         <rend halign="right" fontfam="DingPI ldsDpi">⌝</rend>
                      </dir>
                   </measure>

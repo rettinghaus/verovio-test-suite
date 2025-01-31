@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -54,7 +54,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">
+                     <dir place="above" staff="1" tstamp="1">
                         <rend fontstyle="normal">slur attached to chord</rend>
                      </dir>
                      <slur staff="1" startid="#note-L5F1" endid="#chord-L6F1" curvedir="above" />
@@ -81,7 +81,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">
+                     <dir place="above" staff="1" tstamp="1">
                         <rend fontstyle="normal">slur attached to G note</rend>
                      </dir>
                      <slur staff="1" startid="#note-L12F1" endid="#note-L14F1S2" curvedir="above" />
@@ -108,7 +108,7 @@
                            </chord>
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">
+                     <dir place="above" staff="1" tstamp="1">
                         <rend fontstyle="normal">slur attached to A note</rend>
                      </dir>
                      <slur staff="1" startid="#note-L21F1" endid="#note-L23F1S1" curvedir="above" />
@@ -135,7 +135,7 @@
                            <note xml:id="note-L31F1" dur="2" oct="5" pname="c" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">
+                     <dir place="above" staff="1" tstamp="1">
                         <rend fontstyle="normal">slur attached from chord</rend>
                      </dir>
                      <slur staff="1" startid="#chord-L30F1" endid="#note-L31F1" curvedir="above" />
@@ -162,7 +162,7 @@
                            <note xml:id="note-L39F1" dur="2" oct="5" pname="c" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">
+                     <dir place="above" staff="1" tstamp="1">
                         <rend fontstyle="normal">slur attached from G note</rend>
                      </dir>
                      <slur staff="1" startid="#note-L38F1S2" endid="#note-L39F1" curvedir="above" />
@@ -189,7 +189,7 @@
                            <note xml:id="note-L48F1" dur="2" oct="5" pname="c" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">
+                     <dir place="above" staff="1" tstamp="1">
                         <rend fontstyle="normal">slur attached from A note</rend>
                      </dir>
                      <slur staff="1" startid="#note-L47F1S1" endid="#note-L48F1" curvedir="above" />

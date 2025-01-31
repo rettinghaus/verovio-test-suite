@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -31,7 +31,7 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffGrp symbol="brace" bar.thru="true">
+                     <staffGrp bar.thru="true" symbol="brace">
                         <staffDef n="1" lines="5" clef.shape="G" clef.line="2" />
                         <staffDef n="2" lines="5" clef.shape="F" clef.line="4" />
                      </staffGrp>
@@ -52,7 +52,9 @@
                            <mSpace />
                         </layer>
                      </staff>
-                     <dir staff="1" place="above" tstamp="1.0"><rend fontsize="xx-small">place="above"</rend></dir>
+                     <dir place="above" staff="1" tstamp="1">
+                        <rend fontsize="xx-small">place="above"</rend>
+                     </dir>
                   </measure>
                   <measure>
                      <staff n="1">
@@ -68,8 +70,10 @@
                            <mSpace />
                         </layer>
                      </staff>
-                     <dir staff="2" place="below" tstamp="1.0"><rend fontsize="xx-small">place="mixed"</rend></dir>
-                  </measure>             
+                     <dir place="below" staff="2" tstamp="1">
+                        <rend fontsize="xx-small">place="mixed"</rend>
+                     </dir>
+                  </measure>
                   <measure>
                      <staff n="1">
                         <layer n="1">
@@ -84,7 +88,9 @@
                            <mSpace />
                         </layer>
                      </staff>
-                     <dir staff="1" place="above" tstamp="1.0"><rend fontsize="xx-small">stem up / up</rend></dir>
+                     <dir place="above" staff="1" tstamp="1">
+                        <rend fontsize="xx-small">stem up / up</rend>
+                     </dir>
                   </measure>
                   <measure>
                      <staff n="1">
@@ -100,7 +106,9 @@
                            <mSpace />
                         </layer>
                      </staff>
-                     <dir staff="2" place="below" tstamp="1.0"><rend fontsize="xx-small">stem down / up</rend></dir>
+                     <dir place="below" staff="2" tstamp="1">
+                        <rend fontsize="xx-small">stem down / up</rend>
+                     </dir>
                   </measure>
                   <measure>
                      <staff n="1">
@@ -116,7 +124,9 @@
                            <mSpace />
                         </layer>
                      </staff>
-                     <dir staff="1" place="above" tstamp="1.0"><rend fontsize="xx-small">stem default / up</rend></dir>
+                     <dir place="above" staff="1" tstamp="1">
+                        <rend fontsize="xx-small">stem default / up</rend>
+                     </dir>
                   </measure>
                   <measure>
                      <staff n="1">
@@ -132,7 +142,9 @@
                            <mSpace />
                         </layer>
                      </staff>
-                     <dir staff="2" place="below" tstamp="1.0"><rend fontsize="xx-small">default</rend></dir>
+                     <dir place="below" staff="2" tstamp="1">
+                        <rend fontsize="xx-small">default</rend>
+                     </dir>
                   </measure>
                </section>
             </score>

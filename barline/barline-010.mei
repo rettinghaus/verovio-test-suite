@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -75,7 +75,7 @@
                               <multiRest num="4" />
                            </layer>
                         </staff>
-                        <reh staff="2" tstamp="0.000000">
+                        <reh staff="2" tstamp="0">
                            <rend halign="center" rend="box" fontsize="130.00%" fontstyle="normal" fontweight="bold">A</rend>
                         </reh>
                      </measure>
@@ -94,7 +94,7 @@
                               <multiRest num="16" />
                            </layer>
                         </staff>
-                        <tempo staff="2" tstamp="1.000000">Much much faster</tempo>
+                        <tempo staff="2" tstamp="1">Much much faster</tempo>
                      </measure>
                      <measure corresp="#none">
                         <staff n="2">

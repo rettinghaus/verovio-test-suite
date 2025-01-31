@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -42,8 +42,8 @@
                            <note dur="2" oct="4" pname="e" />
                         </layer>
                      </staff>
-                     <dynam next="#dyn2" staff="1" tstamp="1.000000" extender="true" vgrp="1">cre</dynam>
-                     <dynam xml:id="dyn2" next="#dyn3" staff="1" tstamp="4.000000" extender="true" vgrp="1">sc</dynam>
+                     <dynam next="#dyn2" staff="1" tstamp="1" extender="true" vgrp="1">cre</dynam>
+                     <dynam xml:id="dyn2" next="#dyn3" staff="1" tstamp="4" extender="true" vgrp="1">sc</dynam>
                   </measure>
                   <measure>
                      <staff n="1">
@@ -53,7 +53,7 @@
                            <note dur="8" oct="4" pname="b" stem.dir="up" artic="stacc" />
                         </layer>
                      </staff>
-                     <dynam xml:id="dyn3" next="#dyn4" staff="1" tstamp="2.000000" extender="true" vgrp="1">en</dynam>
+                     <dynam xml:id="dyn3" next="#dyn4" staff="1" tstamp="2" extender="true" vgrp="1">en</dynam>
                   </measure>
                   <measure>
                      <staff n="1">
@@ -61,7 +61,7 @@
                            <note dur="1" oct="5" pname="c" />
                         </layer>
                      </staff>
-                     <dynam xml:id="dyn4" staff="1" tstamp="2.000000" extender="true" vgrp="1">do</dynam>
+                     <dynam xml:id="dyn4" staff="1" tstamp="2" extender="true" vgrp="1">do</dynam>
                   </measure>
                </section>
             </score>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -28,7 +28,7 @@
             <score>
                <scoreDef midi.bpm="140">
                   <staffGrp>
-                     <staffGrp label="Piano" symbol="brace" bar.thru="true">
+                     <staffGrp label="Piano" bar.thru="true" symbol="brace">
                         <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" keysig="3f" meter.count="4" meter.unit="4" meter.sym="common" />
                         <staffDef n="2" lines="5" clef.shape="F" clef.line="4" key.mode="major" keysig="3f" meter.count="4" meter.unit="4" meter.sym="common" />
                      </staffGrp>
@@ -91,11 +91,11 @@
                            </beam>
                         </layer>
                      </staff>
-                     <tempo place="above" staff="1" tstamp="1.000000" xml:lang="it" midi.bpm="160">
+                     <tempo place="above" staff="1" tstamp="1" xml:lang="it" midi.bpm="160">
                         <rend fontweight="bold">Allegro con fuoco</rend>
                      </tempo>
-                     <dynam staff="1" tstamp="1.000000">f</dynam>
-                     <dir staff="2" tstamp="1.000000" xml:lang="it">
+                     <dynam staff="1" tstamp="1">f</dynam>
+                     <dir staff="2" tstamp="1" xml:lang="it">
                         <rend fontstyle="italic">legatissimo</rend>
                      </dir>
                   </measure>

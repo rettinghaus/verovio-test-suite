@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -45,7 +45,7 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <space dur="4" dots="1" />
+                           <space dots="1" dur="4" />
                         </layer>
                      </staff>
                      <staff n="2">
@@ -57,29 +57,29 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dir staff="2" tstamp="2.200000">t</dir>
+                     <dir staff="2" tstamp="2.2">t</dir>
                   </measure>
                   <measure>
                      <staff n="1">
                         <layer n="1">
                            <beam place="below">
-                              <note dur="8" staff="2" oct="3" pname="c" color="coral"/>
+                              <note dur="8" staff="2" oct="3" pname="c" color="coral" />
                               <note dur="8" oct="4" pname="c" />
-                              <note dur="8" staff="2" oct="3" pname="c" color="coral"/>
+                              <note dur="8" staff="2" oct="3" pname="c" color="coral" />
                            </beam>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer n="1">
-                           <space dur="4" dots="1" />
+                           <space dots="1" dur="4" />
                         </layer>
                      </staff>
-                     <dir staff="2" tstamp="2.200000">t</dir>
+                     <dir staff="2" tstamp="2.2">t</dir>
                   </measure>
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <space dur="4" dots="1" />
+                           <space dots="1" dur="4" />
                         </layer>
                      </staff>
                      <staff n="2">
@@ -91,7 +91,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dir staff="1" tstamp="2.600000" place="above">t</dir>
+                     <dir place="above" staff="1" tstamp="2.6">t</dir>
                   </measure>
                   <measure>
                      <staff n="1">
@@ -105,10 +105,10 @@
                      </staff>
                      <staff n="2">
                         <layer n="1">
-                           <space dur="4" dots="1" />
+                           <space dots="1" dur="4" />
                         </layer>
                      </staff>
-                     <dir staff="1" tstamp="2.600000" place="above">t</dir>
+                     <dir place="above" staff="1" tstamp="2.6">t</dir>
                   </measure>
                </section>
             </score>

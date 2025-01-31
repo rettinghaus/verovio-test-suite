@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -39,7 +39,7 @@
                            <note dur="2" oct="4" pname="c" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">A (1 byte)</dir>
+                     <dir place="above" staff="1" tstamp="1">A (1 byte)</dir>
                   </measure>
                   <measure n="1">
                      <staff n="1">
@@ -48,7 +48,7 @@
                            <note dur="2" oct="4" pname="d" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">é (2 bytes)</dir>
+                     <dir place="above" staff="1" tstamp="1">é (2 bytes)</dir>
                   </measure>
                   <measure n="1">
                      <staff n="1">
@@ -57,7 +57,7 @@
                            <note dur="2" oct="4" pname="e" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">अ (3 bytes)</dir>
+                     <dir place="above" staff="1" tstamp="1">अ (3 bytes)</dir>
                   </measure>
                   <measure n="1">
                      <staff n="1">
@@ -66,7 +66,7 @@
                            <note dur="2" oct="4" pname="f" />
                         </layer>
                      </staff>
-                     <dir place="above" staff="1" tstamp="1.000000">𠜎 (4 bytes)</dir>
+                     <dir place="above" staff="1" tstamp="1">𠜎 (4 bytes)</dir>
                   </measure>
                </section>
             </score>

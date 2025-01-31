@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -30,7 +30,7 @@
       <body>
          <mdiv>
             <score>
-               <scoreDef key.sig="4f" meter.sym="common">
+               <scoreDef keysig="4f" meter.sym="common">
                   <staffGrp>
                      <staffDef n="1" lines="5" clef.shape="G" clef.line="2" />
                   </staffGrp>
@@ -47,7 +47,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <scoreDef keysig.show="true" key.sig="0" />
+                  <scoreDef keysig="0" keysig.visible="true" />
                   <measure right="dbl" n="4">
                      <staff n="1">
                         <layer n="1">
@@ -59,7 +59,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <scoreDef key.sig="2s" meter.sym="cut" />
+                  <scoreDef keysig="2s" meter.sym="cut" />
                   <measure n="2">
                      <staff n="1">
                         <layer n="1">
@@ -78,7 +78,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <scoreDef keysig.showchange="true" key.sig="5f" meter.count="4" meter.unit="4" />
+                  <scoreDef keysig="5f" keysig.cancelaccid="before" meter.count="4" meter.unit="4" />
                   <measure right="dbl" n="5">
                      <staff n="1">
                         <layer n="1">
@@ -90,7 +90,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <scoreDef key.sig="2s" />
+                  <scoreDef keysig="2s" />
                   <measure right="end" n="2">
                      <staff n="1">
                         <layer n="1">

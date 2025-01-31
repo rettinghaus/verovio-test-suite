@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -39,6 +39,7 @@
                <scoreDef>
                   <staffGrp>
                      <staffGrp bar.thru="true">
+                        <grpSym symbol="brace" />
                         <staffDef n="1" lines="5" ppq="4">
                            <clef shape="G" line="2" />
                            <keySig sig="2f" />
@@ -49,7 +50,6 @@
                            <keySig sig="2f" />
                            <meterSig count="4" sym="common" unit="4" />
                         </staffDef>
-                        <grpSym symbol="brace" />
                      </staffGrp>
                   </staffGrp>
                </scoreDef>
@@ -107,10 +107,10 @@
                         </layer>
                      </staff>
                      <slur startid="#note-0008-10250-12600-2" endid="#note-0008-10350-12560-2" curvedir="above" />
-                     <pedal staff="2" tstamp="1.000000" dir="down" place="below" vgrp="80" />
-                     <pedal staff="2" tstamp="2.900000" dir="up" place="below" vgrp="80" />
-                     <pedal staff="2" tstamp="4.000000" dir="down" place="below" vgrp="80" />
-                     <pedal staff="2" tstamp="5.900000" dir="up" place="below" vgrp="80" />
+                     <pedal staff="2" tstamp="1" dir="down" place="below" vgrp="80" />
+                     <pedal staff="2" tstamp="2.9" dir="up" place="below" vgrp="80" />
+                     <pedal staff="2" tstamp="4" dir="down" place="below" vgrp="80" />
+                     <pedal staff="2" tstamp="5.9" dir="up" place="below" vgrp="80" />
                   </measure>
                </section>
             </score>

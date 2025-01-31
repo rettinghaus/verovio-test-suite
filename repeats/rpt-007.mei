@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -78,7 +78,7 @@
                               <note dur="8" oct="3" pname="g" accid.ges="n" />
                               <note dur="8" oct="4" pname="c" accid.ges="n" />
                            </beam>
-                           <beatRpt beatdef="3.000000" slash="1" />
+                           <beatRpt beatdef="3" slash="1" />
                            <beam>
                               <note dur="8" oct="3" pname="f" accid.ges="n" />
                               <note dur="8" oct="3" pname="b" accid.ges="n" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -29,7 +29,7 @@
             <score>
                <scoreDef meter.count="4" meter.unit="4">
                   <staffGrp>
-                     <staffGrp symbol="brace" n="1">
+                     <staffGrp n="1" symbol="brace">
                         <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.mode="major" />
                         <staffDef n="2" lines="5" clef.shape="F" clef.line="4" key.mode="major" />
                      </staffGrp>
@@ -131,9 +131,9 @@
                            <space dur="4" />
                         </layer>
                      </staff>
-                     <fermata place="above" staff="1" startid="#chord-0000001000950771"/>
-                     <fermata place="above" staff="1" startid="#chord-0000000683148902"/>
-                     <fermata place="above" staff="1" startid="#chord-0000001958371069"/>
+                     <fermata staff="1" startid="#chord-0000001000950771" place="above" />
+                     <fermata staff="1" startid="#chord-0000000683148902" place="above" />
+                     <fermata staff="1" startid="#chord-0000001958371069" place="above" />
                   </measure>
                </section>
             </score>

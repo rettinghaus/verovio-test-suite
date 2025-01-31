@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -31,7 +31,7 @@
             <score>
                <scoreDef>
                   <staffGrp bar.thru="true">
-                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="3f" meter.count="4" meter.unit="4" />
+                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" keysig="3f" meter.count="4" meter.unit="4" />
                   </staffGrp>
                </scoreDef>
                <section>
@@ -43,11 +43,11 @@
                            <note dur="4" oct="4" pname="f" />
                         </layer>
                      </staff>
-                     <dynam staff="1" tstamp="1.000000">ff e senza sordini ma non sfz</dynam>
-                     <dynam staff="1" tstamp="2.000000">
+                     <dynam staff="1" tstamp="1">ff e senza sordini ma non sfz</dynam>
+                     <dynam staff="1" tstamp="2">
                         <rend fontfam="Times">sempre pp e senza sordini</rend>
                      </dynam>
-                     <dynam staff="1" tstamp="3.000000">sempre fff rfz e poi<lb />poco <rend fontstyle="normal" fontweight="bold">a</rend> poco crescendo ma non ffff<lb />troppo</dynam>
+                     <dynam staff="1" tstamp="3">sempre fff rfz e poi<lb />poco <rend fontstyle="normal" fontweight="bold">a</rend> poco crescendo ma non ffff<lb />troppo</dynam>
                   </measure>
                </section>
             </score>

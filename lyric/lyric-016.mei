@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -57,12 +57,12 @@
                            </note>
                            <note xml:id="n1307hjq" dur="4" oct="4" pname="a">
                               <verse n="1">
-                                 <syl letterspacing="2.000000" con="d" wordpos="i">wid</syl>
+                                 <syl letterspacing="2" con="d" wordpos="i">wid</syl>
                               </verse>
                            </note>
                            <note xml:id="n1l7mqx4" dur="4" oct="4" pname="b">
                               <verse n="1">
-                                 <syl letterspacing="2.000000" wordpos="t">der</syl>
+                                 <syl letterspacing="2" wordpos="t">der</syl>
                               </verse>
                               <accid accid.ges="f" />
                            </note>
@@ -74,19 +74,19 @@
                         <layer n="1">
                            <note xml:id="n1x8gfg1" dur="4" oct="5" pname="c">
                               <verse n="1">
-                                 <syl letterspacing="-0.200000" con="d" wordpos="i">nar</syl>
+                                 <syl letterspacing="-0.2" con="d" wordpos="i">nar</syl>
                               </verse>
                            </note>
                            <note xml:id="n1tuzjas" dur="4" oct="4" pname="b">
                               <verse n="1">
-                                 <syl letterspacing="-0.200000" con="d" wordpos="m">row</syl>
+                                 <syl letterspacing="-0.2" con="d" wordpos="m">row</syl>
                               </verse>
                               <accid accid.ges="f" />
                            </note>
                            <rest dur="4" />
                            <note xml:id="nnw3qi6" dur="4" oct="4" pname="g">
                               <verse n="1">
-                                 <syl letterspacing="-0.200000" con="u" wordpos="t">er</syl>
+                                 <syl letterspacing="-0.2" con="u" wordpos="t">er</syl>
                               </verse>
                            </note>
                         </layer>

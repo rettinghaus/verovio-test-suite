@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -61,11 +61,11 @@
                            <note dur="4" oct="4" pname="d" accid.ges="n" />
                         </layer>
                      </staff>
-                     <harm place="below" staff="3" tstamp="1.000000">G</harm>
-                     <harm place="below" staff="3" tstamp="3.000000">X</harm>
-                     <harm place="below" staff="3" tstamp="6.000000">D2</harm>
-                     <harm place="below" staff="3" tstamp="7.000000">C0</harm>
-                     <harm place="below" staff="3" tstamp="8.000000">D0</harm>
+                     <harm place="below" staff="3" tstamp="1">G</harm>
+                     <harm place="below" staff="3" tstamp="3">X</harm>
+                     <harm place="below" staff="3" tstamp="6">D2</harm>
+                     <harm place="below" staff="3" tstamp="7">C0</harm>
+                     <harm place="below" staff="3" tstamp="8">D0</harm>
                   </measure>
                   <measure n="2">
                      <staff n="1">
@@ -92,11 +92,11 @@
                            <note dur="2" oct="3" pname="a" accid.ges="n" />
                         </layer>
                      </staff>
-                     <harm place="below" staff="3" tstamp="1.000000">C0</harm>
-                     <harm place="below" staff="3" tstamp="2.000000">E2</harm>
-                     <harm place="below" staff="3" tstamp="3.000000">F1</harm>
-                     <harm place="below" staff="3" tstamp="5.000000">G0</harm>
-                     <harm place="below" staff="3" tstamp="7.000000">A0</harm>
+                     <harm place="below" staff="3" tstamp="1">C0</harm>
+                     <harm place="below" staff="3" tstamp="2">E2</harm>
+                     <harm place="below" staff="3" tstamp="3">F1</harm>
+                     <harm place="below" staff="3" tstamp="5">G0</harm>
+                     <harm place="below" staff="3" tstamp="7">A0</harm>
                   </measure>
                   <measure n="3">
                      <staff n="1">
@@ -125,9 +125,9 @@
                            <note dur="2" oct="4" pname="c" accid.ges="n" />
                         </layer>
                      </staff>
-                     <harm place="below" staff="3" tstamp="1.000000">G0</harm>
-                     <harm place="below" staff="3" tstamp="3.000000">C0</harm>
-                     <harm place="below" staff="3" tstamp="7.000000">C0</harm>
+                     <harm place="below" staff="3" tstamp="1">G0</harm>
+                     <harm place="below" staff="3" tstamp="3">C0</harm>
+                     <harm place="below" staff="3" tstamp="7">C0</harm>
                   </measure>
                </section>
             </score>

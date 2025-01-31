@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -49,7 +49,7 @@
                            <rest dur="4" />
                         </layer>
                      </staff>
-                     <dynam place="below" staff="1" tstamp="1.000000">p</dynam>
+                     <dynam place="below" staff="1" tstamp="1">p</dynam>
                      <slur staff="1" startid="#note-L12F3" endid="#note-L17F3" />
                   </measure>
                   <measure n="1">
@@ -113,7 +113,7 @@
                         </layer>
                      </staff>
                      <slur staff="1" startid="#note-L19F3" endid="#note-L25F3" />
-                     <dynam staff="2" tstamp="1.500000">p</dynam>
+                     <dynam staff="2" tstamp="1.5">p</dynam>
                   </measure>
                </section>
             </score>

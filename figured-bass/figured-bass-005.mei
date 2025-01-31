@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -53,8 +53,8 @@
                      </staff>
                      <harm staff="1" tstamp="1">
                         <fb>
-                           <f extender="true" tstamp="1" tstamp2="1m+5">6</f>
-                           <f extender="true" tstamp="1" tstamp2="1m+5">4</f>
+                           <f tstamp="1" tstamp2="1m+5" extender="true">6</f>
+                           <f tstamp="1" tstamp2="1m+5" extender="true">4</f>
                         </fb>
                      </harm>
                   </measure>

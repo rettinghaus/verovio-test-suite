@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -31,8 +31,8 @@
             <score>
                <scoreDef midi.bpm="240">
                   <staffGrp bar.thru="true" symbol="brace">
-                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" key.sig="2s" meter.count="4" meter.unit="4" />
-                     <staffDef n="2" lines="5" clef.shape="F" clef.line="4" key.sig="2s" meter.count="4" meter.unit="4" />
+                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2" keysig="2s" meter.count="4" meter.unit="4" />
+                     <staffDef n="2" lines="5" clef.shape="F" clef.line="4" keysig="2s" meter.count="4" meter.unit="4" />
                   </staffGrp>
                </scoreDef>
                <section>
@@ -62,7 +62,7 @@
                            <note xml:id="note-L9F2" dur="1" oct="1" pname="a" accid.ges="n" />
                         </layer>
                      </staff>
-                     <dynam staff="2" tstamp="3.000000">sf</dynam>
+                     <dynam staff="2" tstamp="3">sf</dynam>
                      <tie startid="#note-L9F2" endid="#note-L19F1S1" />
                   </measure>
                   <measure n="228">

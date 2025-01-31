@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -35,15 +35,15 @@
                   <measure n="0">
                      <staff n="1">
                         <layer n="1">
-                           <chord dur="4" cue="true" stem.len="0.000000">
+                           <chord dur="4" cue="true" stem.len="0">
                               <note oct="3" pname="g" cue="true" accid.ges="s" />
                               <note oct="3" pname="b" cue="true" accid.ges="n" />
                            </chord>
-                           <chord dur="4" cue="true" stem.len="0.000000">
+                           <chord dur="4" cue="true" stem.len="0">
                               <note oct="3" pname="a" cue="true" accid.ges="n" />
                               <note oct="4" pname="e" cue="true" accid.ges="n" />
                            </chord>
-                           <chord dur="4" cue="true" stem.len="0.000000">
+                           <chord dur="4" cue="true" stem.len="0">
                               <note oct="3" pname="a" cue="true" accid.ges="n" />
                               <note oct="4" pname="c" cue="true" accid.ges="s" />
                            </chord>
@@ -54,7 +54,7 @@
                            <note dur="4" oct="3" pname="f" accid.ges="s" />
                         </layer>
                      </staff>
-                     <harm place="below" staff="1" tstamp="2.000000">
+                     <harm place="below" staff="1" tstamp="2">
                         <fb>
                            <f>6</f>
                         </fb>
@@ -63,15 +63,15 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <note dur="2" oct="3" pname="f" cue="true" stem.len="0.000000" accid.ges="s" />
-                           <chord dur="4" cue="true" stem.len="0.000000">
+                           <note dur="2" oct="3" pname="f" cue="true" stem.len="0" accid.ges="s" />
+                           <chord dur="4" cue="true" stem.len="0">
                               <note oct="3" pname="b" cue="true" accid.ges="n" />
                               <note oct="4" pname="e" cue="true" accid.ges="n" />
                            </chord>
                         </layer>
                         <layer n="2">
-                           <note dur="4" oct="4" pname="c" cue="true" stem.len="0.000000" accid.ges="s" />
-                           <note dur="4" oct="3" pname="b" cue="true" stem.len="0.000000" accid.ges="n" />
+                           <note dur="4" oct="4" pname="c" cue="true" stem.len="0" accid.ges="s" />
+                           <note dur="4" oct="3" pname="b" cue="true" stem.len="0" accid.ges="n" />
                            <note dur="4" oct="3" pname="g" accid="n" />
                         </layer>
                         <layer n="3">
@@ -79,12 +79,12 @@
                            <space dur="4" />
                         </layer>
                      </staff>
-                     <harm place="below" staff="1" tstamp="1.000000">
+                     <harm place="below" staff="1" tstamp="1">
                         <fb>
                            <f>76</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="3.000000">
+                     <harm place="below" staff="1" tstamp="3">
                         <fb>
                            <f>6</f>
                         </fb>
@@ -93,12 +93,12 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <chord dur="4" cue="true" stem.len="0.000000">
+                           <chord dur="4" cue="true" stem.len="0">
                               <note oct="3" pname="a" cue="true" accid="s" />
                               <note oct="4" pname="c" cue="true" accid.ges="s" />
                               <note oct="4" pname="f" cue="true" accid.ges="s" />
                            </chord>
-                           <chord dur="2" cue="true" stem.len="0.000000">
+                           <chord dur="2" cue="true" stem.len="0">
                               <note oct="3" pname="f" cue="true" accid.ges="s" />
                               <note oct="3" pname="b" cue="true" accid.ges="n" />
                               <note oct="4" pname="d" cue="true" accid.ges="n" />
@@ -114,29 +114,29 @@
                            </beam>
                         </layer>
                      </staff>
-                     <harm place="below" staff="1" tstamp="1.000000">
+                     <harm place="below" staff="1" tstamp="1">
                         <fb>
                            <f>♯</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="2.000000">
+                     <harm place="below" staff="1" tstamp="2">
                         <fb>
                            <f>7</f>
                            <f>5</f>
                            <f>2</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="2.500000">
+                     <harm place="below" staff="1" tstamp="2.5">
                         <fb>
                            <f>_</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="3.000000">
+                     <harm place="below" staff="1" tstamp="3">
                         <fb>
                            <f>_</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="3.500000">
+                     <harm place="below" staff="1" tstamp="3.5">
                         <fb>
                            <f>_</f>
                         </fb>
@@ -145,7 +145,7 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <chord dots="1" dur="2" cue="true" stem.len="0.000000">
+                           <chord dots="1" dur="2" cue="true" stem.len="0">
                               <note oct="3" pname="a" cue="true" accid="s" />
                               <note oct="4" pname="c" cue="true" accid.ges="s" />
                               <note oct="4" pname="f" cue="true" accid.ges="s" />
@@ -157,17 +157,17 @@
                            <note dur="4" oct="2" pname="g" accid.ges="s" />
                         </layer>
                      </staff>
-                     <harm place="below" staff="1" tstamp="1.000000">
+                     <harm place="below" staff="1" tstamp="1">
                         <fb>
                            <f>♯</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="2.000000">
+                     <harm place="below" staff="1" tstamp="2">
                         <fb>
                            <f>_</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="3.000000">
+                     <harm place="below" staff="1" tstamp="3">
                         <fb>
                            <f>_</f>
                         </fb>
@@ -176,15 +176,15 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <chord dur="4" cue="true" stem.len="0.000000">
+                           <chord dur="4" cue="true" stem.len="0">
                               <note oct="3" pname="c" cue="true" accid.ges="s" />
                               <note oct="3" pname="f" cue="true" accid.ges="s" />
                            </chord>
-                           <chord dur="4" cue="true" stem.len="0.000000">
+                           <chord dur="4" cue="true" stem.len="0">
                               <note oct="3" pname="e" cue="true" accid.ges="n" />
                               <note oct="3" pname="g" cue="true" accid.ges="s" />
                            </chord>
-                           <chord dur="4" cue="true" stem.len="0.000000">
+                           <chord dur="4" cue="true" stem.len="0">
                               <note oct="3" pname="e" cue="true" accid.ges="n" />
                               <note oct="3" pname="f" cue="true" accid.ges="s" />
                               <note oct="3" pname="a" cue="true" accid="s" />
@@ -196,18 +196,18 @@
                            <note dur="4" oct="3" pname="c" accid.ges="s" />
                         </layer>
                      </staff>
-                     <harm place="below" staff="1" tstamp="1.000000">
+                     <harm place="below" staff="1" tstamp="1">
                         <fb>
                            <f>6</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="2.000000">
+                     <harm place="below" staff="1" tstamp="2">
                         <fb>
                            <f>6</f>
                            <f>4</f>
                         </fb>
                      </harm>
-                     <harm place="below" staff="1" tstamp="3.000000">
+                     <harm place="below" staff="1" tstamp="3">
                         <fb>
                            <f>6♯</f>
                            <f>4</f>

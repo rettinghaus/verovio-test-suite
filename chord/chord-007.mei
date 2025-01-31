@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -51,7 +51,7 @@
                      </staffDef>
                   </staffGrp>
                </scoreDef>
-               <section xml:id="sl2tg8f">
+               <section>
                   <measure right="invis">
                      <staff n="1">
                         <layer n="1">
@@ -111,7 +111,7 @@
                      </staff>
                   </measure>
                </section>
-               <section xml:id="s1b8d9p" restart="true">
+               <section restart="true">
                   <measure right="invis">
                      <staff n="1">
                         <layer n="1">
@@ -130,7 +130,7 @@
                      </staff>
                   </measure>
                </section>
-               <section xml:id="s2egcme" restart="true">
+               <section restart="true">
                   <measure right="invis">
                      <staff n="1">
                         <layer n="1">
@@ -159,7 +159,7 @@
                      </staff>
                   </measure>
                </section>
-               <section xml:id="vj348rg" restart="true">
+               <section restart="true">
                   <measure>
                      <staff n="1">
                         <layer n="1">
@@ -189,7 +189,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <measure metcon="false" right="invis">
+                  <measure right="invis" metcon="false">
                      <staff n="1">
                         <layer n="1">
                            <beam>

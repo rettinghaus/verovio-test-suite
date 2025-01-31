@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -50,7 +50,7 @@
                   </staffGrp>
                </scoreDef>
                <section>
-                  <pb/>
+                  <pb />
                   <measure>
                      <staff n="1">
                         <layer n="1">
@@ -84,11 +84,11 @@
                            </tuplet>
                         </layer>
                      </staff>
-                     <tie type="hanging-initial" staff="1" tstamp="0.000000" endid="#note-L5F2" />
+                     <tie type="hanging-initial" staff="1" tstamp="0" endid="#note-L5F2" />
                      <slur staff="2" startid="#note-L6F1" endid="#note-L31F1" />
                      <beamSpan plist="#note-L31F1 #note-L30F1 #note-L29F1 #note-L28F1 #note-L27F1 #note-L26F1 #note-L25F1 #note-L24F1 #note-L22F1 #note-L21F1 #note-L20F1 #note-L19F1 #note-L17F1 #note-L16F1 #note-L15F1 #note-L14F1 #note-L13F1 #note-L12F1 #note-L11F1 #note-L10F1 #note-L9F1 #note-L7F1 #note-L6F1" startid="#note-L6F1" endid="#note-L31F1" />
                   </measure>
-                  <sb/>
+                  <sb />
                   <measure n="2">
                      <staff n="1">
                         <layer n="1">
@@ -126,7 +126,7 @@
                         </layer>
                      </staff>
                   </measure>
-                  <sb/>
+                  <sb />
                   <measure n="3">
                      <staff n="1">
                         <layer n="1">
