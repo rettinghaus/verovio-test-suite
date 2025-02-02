@@ -47,7 +47,7 @@
                         </layer>
                      </staff>
                      <fermata staff="1" startid="#note-L6F1" place="above" />
-                     <fermata staff="1" tstamp="5.000000" place="above" />
+                     <fermata staff="1" tstamp="5" place="above" />
                   </measure>
                   <measure n="3">
                      <staff n="1">

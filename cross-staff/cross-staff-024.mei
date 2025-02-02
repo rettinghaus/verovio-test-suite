@@ -39,7 +39,7 @@
                      <staffGrp bar.thru="true">
                         <grpSym symbol="brace" />
                         <label>PIANO</label>
-                        <instrDef midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
+                        <instrDef midi.channel="0" midi.instrnum="0" midi.volume="78%" />
                         <staffDef n="1" lines="5" ppq="4">
                            <clef shape="G" line="2" />
                            <keySig sig="0" />

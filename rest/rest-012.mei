@@ -42,42 +42,42 @@
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <multiRest block="true" loc="0" num="2" width="4" />
+                           <multiRest loc="0" block="true" num="2" width="4vu" />
                         </layer>
                      </staff>
                   </measure>
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <multiRest block="true" loc="2" num="4" width="6" />
+                           <multiRest loc="2" block="true" num="4" width="6vu" />
                         </layer>
                      </staff>
                   </measure>
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <multiRest block="true" loc="4" num="6" width="8" />
+                           <multiRest loc="4" block="true" num="6" width="8vu" />
                         </layer>
                      </staff>
                   </measure>
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <multiRest block="true" loc="6" num="8" width="10" />
+                           <multiRest loc="6" block="true" num="8" width="10vu" />
                         </layer>
                      </staff>
                   </measure>
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <multiRest block="true" loc="8" num="10" width="12" />
+                           <multiRest loc="8" block="true" num="10" width="12vu" />
                         </layer>
                      </staff>
                   </measure>
                   <measure>
                      <staff n="1">
                         <layer n="1">
-                           <multiRest block="true" loc="10" num="12" width="14" />
+                           <multiRest loc="10" block="true" num="12" width="14vu" />
                         </layer>
                      </staff>
                   </measure>

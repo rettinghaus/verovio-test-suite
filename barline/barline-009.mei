@@ -37,7 +37,7 @@
                <scoreDef bar.method="mensur">
                   <staffGrp>
                      <staffDef n="1" lines="5" ppq="4" trans.diat="6" trans.semi="10">
-                        <instrDef midi.channel="0" midi.instrnum="56" midi.volume="78.00%" />
+                        <instrDef midi.channel="0" midi.instrnum="56" midi.volume="78%" />
                         <clef shape="G" line="2" />
                         <keySig sig="4s" />
                         <meterSig count="3" unit="4" />
@@ -45,7 +45,7 @@
                      <staffGrp>
                         <staffGrp bar.thru="true">
                            <grpSym symbol="bracket" />
-                           <instrDef midi.channel="2" midi.instrnum="19" midi.volume="78.00%" />
+                           <instrDef midi.channel="2" midi.instrnum="19" midi.volume="78%" />
                            <staffGrp>
                               <grpSym symbol="brace" />
                               <staffDef n="2" lines="5" ppq="4">

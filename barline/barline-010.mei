@@ -76,7 +76,7 @@
                            </layer>
                         </staff>
                         <reh staff="2" tstamp="0">
-                           <rend halign="center" rend="box" fontsize="130.00%" fontstyle="normal" fontweight="bold">A</rend>
+                           <rend halign="center" rend="box" fontsize="130%" fontstyle="normal" fontweight="bold">A</rend>
                         </reh>
                      </measure>
                   </section>

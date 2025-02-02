@@ -55,7 +55,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <hairpin staff="1" tstamp="1" tstamp2="0m+5" form="cres" opening="5.0000vu" place="below" />
+                     <hairpin staff="1" tstamp="1" tstamp2="0m+5" form="cres" opening="5vu" place="below" />
                   </measure>
                   <measure n="2">
                      <staff n="1">
@@ -93,7 +93,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <hairpin staff="1" tstamp="1" tstamp2="0m+5" form="dim" opening="1.0000vu" place="below" />
+                     <hairpin staff="1" tstamp="1" tstamp2="0m+5" form="dim" opening="1vu" place="below" />
                   </measure>
                </section>
             </score>

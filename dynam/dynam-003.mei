@@ -31,7 +31,7 @@
             <score>
                <scoreDef key.mode="major" keysig="1s" meter.count="4" meter.unit="4">
                   <staffGrp>
-                     <staffDef label="Voice" n="1" scale="75.00%" lines="5" clef.shape="G" clef.line="2" keysig="1s" />
+                     <staffDef label="Voice" n="1" scale="75%" lines="5" clef.shape="G" clef.line="2" keysig="1s" />
                      <staffGrp label="Piano" symbol="brace">
                         <staffDef n="2" lines="5" clef.shape="G" clef.line="2" keysig="1s" />
                         <staffDef n="3" lines="5" clef.shape="F" clef.line="4" keysig="1s" />
