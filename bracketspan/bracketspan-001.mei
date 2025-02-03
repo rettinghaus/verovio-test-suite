@@ -52,7 +52,7 @@
                      </staff>
                      <bracketSpan staff="1" startid="#n01" endid="#n02" func="ligature" />
                      <bracketSpan staff="1" startid="#n03" endid="#n04" func="ligature" />
-                     <bracketSpan staff="1" startid="#n05" endid="#n06" func="ligature" lwidth="0.7500vu" />
+                     <bracketSpan staff="1" startid="#n05" endid="#n06" func="ligature" lwidth="0.75vu" />
                      <bracketSpan staff="1" startid="#n07" endid="#n08" func="ligature" lform="dotted" />
                      <bracketSpan staff="1" startid="#n09" endid="#n10" func="ligature" lform="solid" />
                      <bracketSpan staff="1" tstamp="1" tstamp2="0m+41" func="ligature" lform="dashed" />

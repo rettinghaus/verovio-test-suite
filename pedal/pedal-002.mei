@@ -43,8 +43,8 @@
                            <note dur="4" oct="3" pname="g" accid.ges="n" />
                         </layer>
                      </staff>
-                     <pedal staff="1" tstamp="1.000000" dir="down" />
-                     <pedal staff="1" tstamp="3.750000" dir="up" />
+                     <pedal staff="1" tstamp="1" dir="down" />
+                     <pedal staff="1" tstamp="3.75" dir="up" />
                   </measure>
                   <measure n="2">
                      <staff n="1">
@@ -54,7 +54,7 @@
                            <note dur="4" oct="3" pname="g" accid.ges="n" />
                         </layer>
                      </staff>
-                     <pedal staff="1" tstamp="1.000000" dir="down" />
+                     <pedal staff="1" tstamp="1" dir="down" />
                   </measure>
                   <measure right="end" n="3">
                      <staff n="1">
@@ -62,7 +62,7 @@
                            <mRest xml:id="mrest-000000020800024" fermata="above" />
                         </layer>
                      </staff>
-                     <pedal staff="1" tstamp="3.750000" dir="up" />
+                     <pedal staff="1" tstamp="3.75" dir="up" />
                   </measure>
                </section>
             </score>

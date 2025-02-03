@@ -40,6 +40,7 @@
                <scoreDef>
                   <staffGrp bar.thru="true">
                      <grpSym symbol="brace" />
+                     <grpSym symbol="brace" />
                      <staffDef n="1" lines="5" ppq="1">
                         <clef shape="G" line="2" />
                         <keySig sig="0" />
@@ -50,7 +51,6 @@
                         <keySig sig="0" />
                         <meterSig count="2" unit="4" visible="false" />
                      </staffDef>
-                     <grpSym symbol="brace" />
                   </staffGrp>
                </scoreDef>
                <section>
@@ -58,18 +58,18 @@
                      <staff n="1">
                         <layer n="1">
                            <chord xml:id="ex_1179776871" dur="2">
-                              <note xml:id="ex_0407027738" oct="4" pname="e" />
-                              <note xml:id="ex_0244395599" oct="4" pname="a" />
-                              <note xml:id="ex_1568099329" oct="5" pname="c" />
+                              <note oct="4" pname="e" />
+                              <note oct="4" pname="a" />
+                              <note oct="5" pname="c" />
                            </chord>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer n="5">
                            <chord xml:id="ex_1552330911" dur="2">
-                              <note xml:id="ex_0698883822" oct="2" pname="a" />
-                              <note xml:id="ex_0246793774" oct="3" pname="e" />
-                              <note xml:id="ex_1072037261" oct="3" pname="a" />
+                              <note oct="2" pname="a" />
+                              <note oct="3" pname="e" />
+                              <note oct="3" pname="a" />
                            </chord>
                         </layer>
                      </staff>
@@ -80,18 +80,18 @@
                      <staff n="1">
                         <layer n="1">
                            <chord xml:id="ex_1453522232" dur="2">
-                              <note xml:id="ex_1357676401" oct="4" pname="e" />
-                              <note xml:id="ex_0889483715" oct="4" pname="a" />
-                              <note xml:id="ex_0919131238" oct="5" pname="c" />
+                              <note oct="4" pname="e" />
+                              <note oct="4" pname="a" />
+                              <note oct="5" pname="c" />
                            </chord>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer n="5">
                            <chord xml:id="ex_0490720989" dur="2">
-                              <note xml:id="ex_0128441232" oct="2" pname="a" />
-                              <note xml:id="ex_1210457643" oct="3" pname="e" />
-                              <note xml:id="ex_1049017870" oct="3" pname="a" />
+                              <note oct="2" pname="a" />
+                              <note oct="3" pname="e" />
+                              <note oct="3" pname="a" />
                            </chord>
                         </layer>
                      </staff>
@@ -102,28 +102,28 @@
                      <staff n="1">
                         <layer n="1">
                            <chord xml:id="ex_1604003173" dur="4">
-                              <note xml:id="ex_0907540481" oct="4" pname="e" />
-                              <note xml:id="ex_1183350314" oct="4" pname="a" />
-                              <note xml:id="ex_0722672531" oct="5" pname="c" />
+                              <note oct="4" pname="e" />
+                              <note oct="4" pname="a" />
+                              <note oct="5" pname="c" />
                            </chord>
                            <chord xml:id="ex_0600358557" dur="4">
-                              <note xml:id="ex_1937204732" oct="4" pname="e" />
-                              <note xml:id="ex_1461583801" oct="4" pname="a" />
-                              <note xml:id="ex_1920989021" oct="5" pname="c" />
+                              <note oct="4" pname="e" />
+                              <note oct="4" pname="a" />
+                              <note oct="5" pname="c" />
                            </chord>
                         </layer>
                      </staff>
                      <staff n="2">
                         <layer n="5">
                            <chord xml:id="ex_0313159917" dur="4">
-                              <note xml:id="ex_1867551267" oct="2" pname="a" />
-                              <note xml:id="ex_1943789869" oct="3" pname="e" />
-                              <note xml:id="ex_1755090119" oct="3" pname="a" />
+                              <note oct="2" pname="a" />
+                              <note oct="3" pname="e" />
+                              <note oct="3" pname="a" />
                            </chord>
                            <chord xml:id="ex_0526533847" dur="4">
-                              <note xml:id="ex_2111738488" oct="2" pname="a" />
-                              <note xml:id="ex_1821740889" oct="3" pname="e" />
-                              <note xml:id="ex_1324766144" oct="3" pname="a" />
+                              <note oct="2" pname="a" />
+                              <note oct="3" pname="e" />
+                              <note oct="3" pname="a" />
                            </chord>
                         </layer>
                      </staff>

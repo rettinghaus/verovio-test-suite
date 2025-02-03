@@ -37,7 +37,7 @@
                      <staffDef n="1" lines="5" ppq="1" clef.shape="G" clef.line="2" keysig="0" meter.count="4" meter.unit="4">
                         <label>Piano</label>
                         <labelAbbr>Pno.</labelAbbr>
-                        <instrDef midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
+                        <instrDef midi.channel="0" midi.instrnum="0" midi.volume="78%" />
                      </staffDef>
                   </staffGrp>
                </scoreDef>

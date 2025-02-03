@@ -55,7 +55,7 @@
                      </staff>
                      <tie startid="#n13spws0" endid="#nhue6vb" />
                      <tie startid="#nhue6vb" endid="#n1g2ikqo" />
-                     <hairpin staff="1" tstamp="1" tstamp2="1m+1" form="cres" niente="true" opening="1.5000vu" />
+                     <hairpin staff="1" tstamp="1" tstamp2="1m+1" form="cres" niente="true" opening="1.5vu" />
                   </measure>
                   <measure>
                      <staff n="1">
@@ -66,7 +66,7 @@
                         </layer>
                      </staff>
                      <dynam staff="1" tstamp="1">p</dynam>
-                     <hairpin staff="1" tstamp="1" tstamp2="0m+2" form="dim" niente="true" opening="3.0000vu" />
+                     <hairpin staff="1" tstamp="1" tstamp2="0m+2" form="dim" niente="true" opening="3vu" />
                   </measure>
                </section>
             </score>

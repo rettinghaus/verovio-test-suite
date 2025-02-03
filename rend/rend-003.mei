@@ -54,10 +54,10 @@
                         </layer>
                      </staff>
                      <dir place="above" staff="1" tstamp="1">
-                        <rend rend="box" fontsize="50.00%">Text at 50% with <rend fontsize="200.00%">text a 200%</rend> but not all</rend>
+                        <rend rend="box" fontsize="50%">Text at 50% with <rend fontsize="200%">text a 200%</rend> but not all</rend>
                      </dir>
                      <dir place="below" staff="1" tstamp="1">
-                        <rend fontsize="75.00%">Text at 75% with <rend fontsize="smaller">smaller <rend fontsize="smaller">and even smaller</rend>
+                        <rend fontsize="75%">Text at 75% with <rend fontsize="smaller">smaller <rend fontsize="smaller">and even smaller</rend>
                            </rend> text</rend>
                      </dir>
                   </measure>

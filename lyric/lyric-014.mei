@@ -39,13 +39,13 @@
                <scoreDef>
                   <staffGrp>
                      <staffDef n="1" lines="5" ppq="8">
-                        <instrDef midi.channel="0" midi.instrnum="0" midi.volume="80.00%" />
+                        <instrDef midi.channel="0" midi.instrnum="0" midi.volume="80%" />
                         <clef shape="G" line="2" />
                         <keySig mode="major" sig="1s" />
                         <meterSig count="4" unit="4" />
                      </staffDef>
                      <staffDef n="2" lines="5" ppq="2">
-                        <instrDef midi.channel="0" midi.instrnum="0" midi.volume="80.00%" />
+                        <instrDef midi.channel="0" midi.instrnum="0" midi.volume="80%" />
                         <clef shape="F" line="4" />
                         <keySig mode="major" sig="1s" />
                         <meterSig count="4" unit="4" />
