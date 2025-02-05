@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Mensural Notation Test Mixed Perfect Levels</title>
+         </titleStmt>
+         <pubStmt/>
+      </fileDesc>
+      <encodingDesc xml:id="e4or3zv2">
+         <appInfo xml:id="aeik21o1">
+            <application xml:id="awai5ts2" startdate="2024-10-20T03:26:05" version="1.0.14p">
+               <name xml:id="nrgy22x2">mei-friend</name>
+               <p xml:id="pvsv80o2">First edit by mei-friend 1.0.14p, 3 September 2024.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <staffGrp n="1" symbol="bracket">
+                     <staffDef n="1" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>1a</label>
+                     </staffDef>
+                     <staffDef n="2" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>1b</label>
+                     </staffDef>
+                     <staffDef n="3" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>1c</label>
+                     </staffDef>
+                     <staffDef n="4" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>1d</label>
+                     </staffDef>
+                     <staffDef n="5" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>1e</label>
+                     </staffDef>
+                     <staffDef n="6" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>1f</label>
+                     </staffDef>
+                     <staffDef n="7" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>2a</label>
+                     </staffDef>
+                     <staffDef n="8" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>2b</label>
+                     </staffDef>
+                     <staffDef n="9" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>2c</label>
+                     </staffDef>
+                     <staffDef n="10" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>2d</label>
+                     </staffDef>
+                     <staffDef n="11" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>2d</label>
+                     </staffDef>
+                     <staffDef n="12" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>2d</label>
+                     </staffDef>
+                     <staffDef n="26" notationtype="mensural" lines="5" clef.shape="C" clef.line="3" modusmaior="2" modusminor="3" prolatio="2" tempus="2">
+                        <label>ref</label>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                     <staff n="1">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+                     <staff n="2">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+                     <staff n="3">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c" color="green"/>
+                           <barLine form="dashed"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+
+                     <staff n="4">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <dot/>
+                           <barLine form="dashed"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+                     <staff n="5">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <dot/>
+                           <barLine form="dashed"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+                     <staff n="6">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <dot/>
+                           <barLine form="dashed"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c" color="green"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+
+                     <staff n="7">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+                     <staff n="8">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c" color="green"/>
+                           <note dur="brevis" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+                     <staff n="9">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c" />
+                           <note dur="semibrevis" oct="4" pname="c" />
+                           <note dur="brevis" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                           <note dur="longa" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+
+                     <staff n="10">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <note dur="brevis" oct="4" pname="c" />
+                           <dot />
+                           <barLine form="dashed"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+                     <staff n="11">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c" color="green"/>
+                           <dot />
+                           <barLine form="dashed"/>
+                           <note dur="minima" oct="4" pname="c" />
+                           <dot/>
+                           <note dur="semiminima" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="minima" oct="4" pname="c" />
+                           <dot/>
+                           <note dur="semiminima" oct="4" pname="c"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+                     <staff n="12">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <note dur="minima" oct="4" pname="c" />
+                           <dot/>
+                           <note dur="semiminima" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c" color="green"/>
+                           <dot />
+                           <barLine form="dashed"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="semibrevis" oct="4" pname="c"/>
+                           <note dur="longa" oct="4" pname="c" color="violet"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+
+                     <staff n="26">
+                        <layer n="1">
+                           <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" num="3"/>
+                           <!-- reference -->
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <note dur="brevis" oct="4" pname="c"/>
+                           <barLine form="dashed"/>
+                        </layer>
+                     </staff>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
