@@ -14,7 +14,8 @@
             <title>Verovio test suite</title>
          </seriesStmt>
          <notesStmt>
-            <annot>Example with perfect mensuration at multiple note levels; specifically in perfect modus and perfect tempus (i.e., both longas and breves are perfect by default).</annot>
+            <annot>Verovio can score up mensural voices. It interprets the rhythmic values of the mensural notes based on the mensuration and the context and lines up the voices into a score.</annot>
+            <annot>Here it is an example with perfect mensuration at multiple note levels; specifically in perfect modus and perfect tempus (i.e., both longas and breves are perfect by default).</annot>
             <annot>The violet and green notes are supposed to be modified by the context when scored up according to the principles of imperfection and alteration, which work at two different note levels: at the longa-breve (due to the perfect modus) and at the breve-semibreve (due ot the perfect tempus). Violet is used for the imperfected/altered notes at the longa-breve level; these are longas that are meant to be imperfected and breves meant to be altered. Green is used for the imperfected/altered notes at the breve-semibreve level; these are breves that are meant to be imperfected or semibreves that are meant to be altered.</annot>
             <annot>Finally, the last voice is used as reference and the dashed bar lines should line up if the voices are properly lined up after running the scoring up.</annot>
          </notesStmt>
