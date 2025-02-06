@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Mixed Dots (Division and Augmentation) - Tests: Three Notes</title>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2025-02-05">2025-02-05</date>
+         </pubStmt>
+         <seriesStmt>
+            <title>Verovio test suite</title>
+         </seriesStmt>
+         <notesStmt>
+            <annot>Verovio can score up mensural voices. It interprets the rhythmic values of the mensural notes based on the mensuration and the context and lines up the voices into a score.</annot>
+            <annot>Here it is an example combining dots of division and dots of augmentation. The voices are in perfect tempus (i.e., breves are perfect by default).</annot>
+            <annot>The violet notes are supposed to be modified by the context when scored up. These are either breves that are meant to be imperfected or semibreves that are meant to be altered. The last voice is used as reference. The dashed bar lines should line up if the voices are properly lined up after running the scoring up.</annot>
+         </notesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="unknown">
+               <name>Verovio</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <extMeta><![CDATA[ { "mensuralScoreUp": true }]]></extMeta>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <staffGrp n="1" symbol="bracket">
+                     <staffDef clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="1" notationtype="mensural" prolatio="2" tempus="3">
+                        <label>dofOfDiv</label>
+                     </staffDef>
+                     <staffDef clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="2" notationtype="mensural" prolatio="2" tempus="3">
+                        <label>mixedDots</label>
+                     </staffDef>
+                     <staffDef clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="3" notationtype="mensural" prolatio="2" tempus="3">
+                        <label>mixedDots</label>
+                     </staffDef>
+                     <staffDef clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="4" notationtype="mensural" prolatio="2" tempus="3">
+                        <label>ref</label>
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <staff xml:id="stw06z" n="1">
+                     <layer xml:id="llc8u1" n="1">
+                        <mensur xml:id="m5un" modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
+                        <note xml:id="n9wl0r" dur="brevis" oct="4" pname="c" color="violet" />
+                        <note xml:id="ngrrn2" dur="semibrevis" oct="4" pname="c" />
+                        <dot xml:id="dowe1" />
+                        <barLine xml:id="bau1" form="dashed" />
+                        <note xml:id="nobj42" dur="semibrevis" oct="4" pname="c" />
+                        <note xml:id="ntj8r1" dur="semibrevis" oct="4" pname="c" color="violet" />
+                        <barLine xml:id="oju1" form="dashed" />
+                        <note xml:id="niqp31" dur="brevis" oct="4" pname="c" />
+                        <barLine xml:id="b2e8r2" form="dashed" />
+                     </layer>
+                  </staff>
+                  <staff xml:id="stw06zl2" n="2">
+                     <layer xml:id="llcgv8u1" n="1">
+                        <mensur xml:id="m15uf1in" modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
+                        <note xml:id="n9wl0rs2" dur="brevis" oct="4" pname="c" color="violet" />
+                        <note xml:id="ngrra1n2" dur="minima" oct="4" pname="c" />
+                        <dot/>
+                        <note xml:id="ngrra1n2a" dur="semiminima" oct="4" pname="c" />
+                        <dot xml:id="dow86e01" />
+                        <barLine xml:id="bao6u1" form="dashed" />
+                        <note xml:id="nobj47q2" dur="semibrevis" oct="4" pname="c" />
+                        <note xml:id="ntj8r621" dur="semibrevis" oct="4" pname="c" color="violet" />
+                        <barLine xml:id="baoju1" form="dashed" />
+                        <note xml:id="niqowp31" dur="brevis" oct="4" pname="c" />
+                        <barLine xml:id="b2cte8r2" form="dashed" />
+                     </layer>
+                  </staff>
+                  <staff xml:id="stw062" n="3">
+                     <layer xml:id="cgv8u1" n="1">
+                        <mensur xml:id="m15uin" modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
+                        <note xml:id="n9wls2" dur="brevis" oct="4" pname="c" color="violet" />
+                        <note xml:id="nga1n2" dur="semibrevis" oct="4" pname="c" />
+                        <dot xml:id="dowe01" />
+                        <barLine xml:id="bao6" form="dashed" />
+                        <note xml:id="nobj47" dur="minima" oct="4" pname="c" />
+                        <dot/>
+                        <note xml:id="nj47" dur="semiminima" oct="4" pname="c" />
+                        <note xml:id="ntj821" dur="semibrevis" oct="4" pname="c" color="violet" />
+                        <barLine xml:id="bju1" form="dashed" />
+                        <note xml:id="niqo31" dur="brevis" oct="4" pname="c" />
+                        <barLine xml:id="bte8r2" form="dashed" />
+                     </layer>
+                  </staff>
+                  <staff n="4">
+                     <layer n="1">
+                        <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
+                        <!-- reference -->
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <barLine form="dashed"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <barLine form="dashed"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <note dur="semibrevis" oct="4" pname="c"/>
+                        <barLine form="dashed"/>
+                     </layer>
+                  </staff>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
