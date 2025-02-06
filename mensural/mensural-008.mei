@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Mensural Notation Basic Test Cases for the Principles of Imperfection and Alteration</title>
          </titleStmt>
-         <pubStmt/>
+         <pubStmt>
+            <date isodate="2025-02-05">2025-02-05</date>
+         </pubStmt>
+         <seriesStmt>
+            <title>Verovio test suite</title>
+         </seriesStmt>
+         <notesStmt>
+            <annot>Examples of the Principles of Imperfection and Alteration including versions with and without dots of division. The examples are in perfect tempus (i.e., breves are perfect by default).</annot>
+            <annot>The violet notes are supposed to be modified by the context when scored up. These are either breves that are meant to be imperfected or semibreves that are meant to be altered. The last voice is used as reference. The dashed bar lines should line up if the voices are properly lined up after running the scoring up.</annot>
+         </notesStmt>
       </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="unknown">
+               <name>Verovio</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
    </meiHead>
    <music xml:id="mwsd8r01">
       <body xml:id="bti8j8i1">

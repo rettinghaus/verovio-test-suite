@@ -1,16 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Mensural Notation Test Mixed Perfect Levels</title>
          </titleStmt>
-         <pubStmt/>
+         <pubStmt>
+            <date isodate="2025-02-05">2025-02-05</date>
+         </pubStmt>
+         <seriesStmt>
+            <title>Verovio test suite</title>
+         </seriesStmt>
+         <notesStmt>
+            <annot>Example with perfect mensuration at multiple note levels; specifically in perfect modus and perfect tempus (i.e., both longas and breves are perfect by default).</annot>
+            <annot>The violet and green notes are supposed to be modified by the context when scored up according to the principles of imperfection and alteration, which work at two different note levels: at the longa-breve (due to the perfect modus) and at the breve-semibreve (due ot the perfect tempus). Violet is used for the imperfected/altered notes at the longa-breve level; these are longas that are meant to be imperfected and breves meant to be altered. Green is used for the imperfected/altered notes at the breve-semibreve level; these are breves that are meant to be imperfected or semibreves that are meant to be altered.</annot>
+            <annot>Finally, the last voice is used as reference and the dashed bar lines should line up if the voices are properly lined up after running the scoring up.</annot>
+         </notesStmt>
       </fileDesc>
-      <encodingDesc xml:id="e4or3zv2">
-         <appInfo xml:id="aeik21o1">
-            <application xml:id="awai5ts2" startdate="2024-10-20T03:26:05" version="1.0.14p">
-               <name xml:id="nrgy22x2">mei-friend</name>
-               <p xml:id="pvsv80o2">First edit by mei-friend 1.0.14p, 3 September 2024.</p>
+      <encodingDesc>
+         <appInfo>
+            <application version="unknown">
+               <name>Verovio</name>
             </application>
          </appInfo>
       </encodingDesc>

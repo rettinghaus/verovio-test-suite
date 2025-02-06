@@ -7,8 +7,24 @@
          <titleStmt>
             <title>Mensural Notation Test Mixed Dots</title>
          </titleStmt>
-         <pubStmt />
+         <pubStmt>
+            <date isodate="2025-02-05">2025-02-05</date>
+         </pubStmt>
+         <seriesStmt>
+            <title>Verovio test suite</title>
+         </seriesStmt>
+         <notesStmt>
+            <annot>Examples combining dots of division and dots of augmentation. The examples are in perfect tempus (i.e., breves are perfect by default).</annot>
+            <annot>The violet notes are supposed to be modified by the context when scored up. These are either breves that are meant to be imperfected or semibreves that are meant to be altered. The last voice is used as reference. The dashed bar lines should line up if the voices are properly lined up after running the scoring up.</annot>
+         </notesStmt>
       </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application version="unknown">
+               <name>Verovio</name>
+            </application>
+         </appInfo>
+      </encodingDesc>
    </meiHead>
    <music>
       <body>
