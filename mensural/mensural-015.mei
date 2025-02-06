@@ -49,50 +49,50 @@
                   </staffGrp>
                </scoreDef>
                <section>
-                  <staff xml:id="stw06z" n="1">
-                     <layer xml:id="llc8u1" n="1">
-                        <mensur xml:id="m5un" modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
-                        <note xml:id="n9wl0r" dur="brevis" oct="4" pname="c" color="violet" />
-                        <note xml:id="ngrrn2" dur="semibrevis" oct="4" pname="c" />
-                        <dot xml:id="dowe1" />
-                        <barLine xml:id="bau1" form="dashed" />
-                        <note xml:id="nobj42" dur="semibrevis" oct="4" pname="c" />
-                        <note xml:id="ntj8r1" dur="semibrevis" oct="4" pname="c" color="violet" />
-                        <barLine xml:id="oju1" form="dashed" />
-                        <note xml:id="niqp31" dur="brevis" oct="4" pname="c" />
-                        <barLine xml:id="b2e8r2" form="dashed" />
+                  <staff n="1">
+                     <layer n="1">
+                        <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
+                        <note dur="brevis" oct="4" pname="c" color="violet" />
+                        <note dur="semibrevis" oct="4" pname="c" />
+                        <dot />
+                        <barLine form="dashed" />
+                        <note dur="semibrevis" oct="4" pname="c" />
+                        <note dur="semibrevis" oct="4" pname="c" color="violet" />
+                        <barLine form="dashed" />
+                        <note dur="brevis" oct="4" pname="c" />
+                        <barLine form="dashed" />
                      </layer>
                   </staff>
-                  <staff xml:id="stw06zl2" n="2">
-                     <layer xml:id="llcgv8u1" n="1">
-                        <mensur xml:id="m15uf1in" modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
-                        <note xml:id="n9wl0rs2" dur="brevis" oct="4" pname="c" color="violet" />
-                        <note xml:id="ngrra1n2" dur="minima" oct="4" pname="c" />
+                  <staff n="2">
+                     <layer n="1">
+                        <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
+                        <note dur="brevis" oct="4" pname="c" color="violet" />
+                        <note dur="minima" oct="4" pname="c" />
                         <dot/>
-                        <note xml:id="ngrra1n2a" dur="semiminima" oct="4" pname="c" />
-                        <dot xml:id="dow86e01" />
-                        <barLine xml:id="bao6u1" form="dashed" />
-                        <note xml:id="nobj47q2" dur="semibrevis" oct="4" pname="c" />
-                        <note xml:id="ntj8r621" dur="semibrevis" oct="4" pname="c" color="violet" />
-                        <barLine xml:id="baoju1" form="dashed" />
-                        <note xml:id="niqowp31" dur="brevis" oct="4" pname="c" />
-                        <barLine xml:id="b2cte8r2" form="dashed" />
+                        <note dur="semiminima" oct="4" pname="c" />
+                        <dot />
+                        <barLine form="dashed" />
+                        <note dur="semibrevis" oct="4" pname="c" />
+                        <note dur="semibrevis" oct="4" pname="c" color="violet" />
+                        <barLine form="dashed" />
+                        <note dur="brevis" oct="4" pname="c" />
+                        <barLine form="dashed" />
                      </layer>
                   </staff>
-                  <staff xml:id="stw062" n="3">
-                     <layer xml:id="cgv8u1" n="1">
-                        <mensur xml:id="m15uin" modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
-                        <note xml:id="n9wls2" dur="brevis" oct="4" pname="c" color="violet" />
-                        <note xml:id="nga1n2" dur="semibrevis" oct="4" pname="c" />
-                        <dot xml:id="dowe01" />
-                        <barLine xml:id="bao6" form="dashed" />
-                        <note xml:id="nobj47" dur="minima" oct="4" pname="c" />
+                  <staff n="3">
+                     <layer n="1">
+                        <mensur modusmaior="2" modusminor="2" prolatio="2" tempus="3" sign="O" dot="false"/>
+                        <note dur="brevis" oct="4" pname="c" color="violet" />
+                        <note dur="semibrevis" oct="4" pname="c" />
+                        <dot />
+                        <barLine form="dashed" />
+                        <note dur="minima" oct="4" pname="c" />
                         <dot/>
-                        <note xml:id="nj47" dur="semiminima" oct="4" pname="c" />
-                        <note xml:id="ntj821" dur="semibrevis" oct="4" pname="c" color="violet" />
-                        <barLine xml:id="bju1" form="dashed" />
-                        <note xml:id="niqo31" dur="brevis" oct="4" pname="c" />
-                        <barLine xml:id="bte8r2" form="dashed" />
+                        <note dur="semiminima" oct="4" pname="c" />
+                        <note dur="semibrevis" oct="4" pname="c" color="violet" />
+                        <barLine form="dashed" />
+                        <note dur="brevis" oct="4" pname="c" />
+                        <barLine form="dashed" />
                      </layer>
                   </staff>
                   <staff n="4">
