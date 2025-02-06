@@ -34,9 +34,15 @@
             <score xml:id="s6zv1l8">
                <scoreDef xml:id="s9ril8p1">
                   <staffGrp xml:id="sjxiacd" n="1" symbol="bracket">
-                     <staffDef xml:id="saqb8di2" clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="1" notationtype="mensural" prolatio="2" tempus="3"/>
-                     <staffDef xml:id="s9uqisd" clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="2" notationtype="mensural" prolatio="2" tempus="3"/>
-                     <staffDef xml:id="svxtpe2" clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="3" notationtype="mensural" prolatio="2" tempus="3"/>
+                     <staffDef xml:id="saqb8di2" clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="1" notationtype="mensural" prolatio="2" tempus="3">
+                        <label>default</label>
+                     </staffDef>
+                     <staffDef xml:id="s9uqisd" clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="2" notationtype="mensural" prolatio="2" tempus="3">
+                        <label>dotOfPerf</label>
+                     </staffDef>
+                     <staffDef xml:id="svxtpe2" clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="3" notationtype="mensural" prolatio="2" tempus="3">
+                        <label></label>
+                     </staffDef>
                      <staffDef xml:id="s7z6b8d1" clef.line="3" clef.shape="C" lines="5" modusmaior="2" modusminor="2" n="4" notationtype="mensural" prolatio="2" tempus="3">
                         <label xml:id="lls9h4u1">ref</label>
                      </staffDef>
