@@ -27,8 +27,7 @@
             </application>
          </appInfo>
       </encodingDesc>
-      <extMeta>--mensural-score-up</extMeta>
-      <extMeta>--all-pages</extMeta>
+      <extMeta><![CDATA[ { "mensuralScoreUp": true }]]></extMeta>
    </meiHead>
    <music>
       <body>
